@@ -25,6 +25,13 @@
 
 There are 3 Test Suites to execute.
 
+Note: The following test cases:
+1. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge. I am unable to load the file to GitHub.
+2. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from main.
+
+Please replace the file path directory during your execution should you need to execute the above 2 testcases.
+
+
 <img width="296" height="123" alt="image" src="https://github.com/user-attachments/assets/e9a9ff0d-c0a5-4a76-9ce3-deb5490cbe8e" />
 
 Note: Before the start of any execution, please disable the security verification on CloudFlare as shown below. 
