@@ -22,15 +22,14 @@
         3.	Open Katalon Studio.
 
 # Test Execution
+Notes:
+1. For "TC2_Positive_Successful Submission (All fields)", "TC8_Negative_Exceed File Size","TC9_Negative_File Validation", please replace the file path directory during the execution for the test cases and select the required test file from GitHub main.
 
+2. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub. Please use your own file and rename the file.
+3. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from GitHub main.
+
+# Test Suites
 There are 3 Test Suites to execute.
-
-Note: The following test cases:
-1. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub.
-2. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from main.
-
-Please replace the file path directory during your execution should you need to execute the above 2 testcases.
-
 
 <img width="296" height="123" alt="image" src="https://github.com/user-attachments/assets/e9a9ff0d-c0a5-4a76-9ce3-deb5490cbe8e" />
 
