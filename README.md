@@ -26,7 +26,7 @@
 There are 3 Test Suites to execute.
 
 Note: The following test cases:
-1. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge. I am unable to load the file to GitHub.
+1. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub.
 2. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from main.
 
 Please replace the file path directory during your execution should you need to execute the above 2 testcases.
@@ -56,6 +56,8 @@ This verification will prevent a successful form submission.
 
 
 
+4. Reports will be saved in /Reports
+<img width="304" height="402" alt="image" src="https://github.com/user-attachments/assets/778aa3b7-04e2-4cac-a8d0-6bfa15d5a45a" />
 
 
 
@@ -127,9 +129,16 @@ This verification will prevent a successful form submission.
     
 /Reports/
     - Stores test execution reports automatically generated after each run.
+
+    
+
+    
         •	Test cases reference page objects for all UI interactions.
+        
         •	Data binding links the data file to test cases enabling iterative execution over datasets.
+        
         •	Negative and positive validation test cases ensure end-to-end functional verification.
+        
         •	Configurations for browsers and environments facilitate cross-browser testing.
 
 
