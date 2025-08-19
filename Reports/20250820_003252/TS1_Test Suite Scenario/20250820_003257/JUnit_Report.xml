@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1_Test Suite Scenario" time="236.972" tests="8" failures="1" errors="0">
+   <testsuite name="TS1_Test Suite Scenario" tests="8" failures="1" errors="0" time="236.972" skipped="0" timestamp="2025-08-19T16:41:41.003Z" hostname="Winnie Lim - LAPTOP-B1MJ4OTP" id="Test Suites/TS1_Test Suite Scenario">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257"/>
+         <property name="logFiles" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\console0.log, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621738034.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621759321.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621776411.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621802496.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621819695.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621845554.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621883384.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621917175.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621937803.png"/>
+         <property name="hostName" value="Winnie Lim - LAPTOP-B1MJ4OTP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Edge Chromium 139.0.3405.102"/>
+         <property name="userFullName" value="Win Eng"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="10b44f844d9347c24e2cb64bddf5c91f"/>
+         <property name="projectName" value="ProjectTestForm"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FormPage/TC3_Negative_Empty Fields" time="37.047" classname="Test Cases/FormPage/TC3_Negative_Empty Fields" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:41:41 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC3_Negative_Empty Fields: Test Cases/FormPage/TC3_Negative_Empty Fields
+
+20-08-2025T00:41:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:41:42 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:41:42 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:41:43 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:41:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:41:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:41:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:41:47 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:41:47 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:41:47 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:41:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:41:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:41:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:41:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:41:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:41:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:42:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:42:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:42:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:42:00 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+20-08-2025T00:42:00 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+20-08-2025T00:42:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/checkbox_Hobbies"), 3): Scroll to object 'Object Repository/Module/Test Form/checkbox_Hobbies' successfully
+
+20-08-2025T00:42:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/checkbox_Hobbies' successfully
+
+20-08-2025T00:42:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:42:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:42:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/textarea_Address(optional)"), 3): Scroll to object 'Object Repository/Module/Test Form/textarea_Address(optional)' successfully
+
+20-08-2025T00:42:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/textarea_Address(optional)' successfully
+
+20-08-2025T00:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_First Name"), "This field is required", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_First Name' are matched.
+
+20-08-2025T00:42:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_First Name' are matched.
+
+20-08-2025T00:42:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Last Name"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Last Name' are matched.
+
+20-08-2025T00:42:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Last Name' are matched.
+
+20-08-2025T00:42:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Email"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Email' are matched.
+
+20-08-2025T00:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Email' are matched.
+
+20-08-2025T00:42:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Gender"), "This field is required", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Gender' are matched.
+
+20-08-2025T00:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Gender' are matched.
+
+20-08-2025T00:42:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Mobile number"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Mobile number' are matched.
+
+20-08-2025T00:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Mobile number' are matched.
+
+20-08-2025T00:42:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Date of Birth"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Date of Birth' are matched.
+
+20-08-2025T00:42:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Date of Birth' are matched.
+
+20-08-2025T00:42:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Mobile number"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Mobile number' are matched.
+
+20-08-2025T00:42:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Mobile number' are matched.
+
+20-08-2025T00:42:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_Hobbies"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Hobbies' are matched.
+
+20-08-2025T00:42:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_Hobbies' are matched.
+
+20-08-2025T00:42:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:42:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:42:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:42:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:42:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:42:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:42:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:42:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:42:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/checkbox_Hobbies"), 3): Scroll to object 'Object Repository/Module/Test Form/checkbox_Hobbies' successfully
+
+20-08-2025T00:42:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/checkbox_Hobbies' successfully
+
+20-08-2025T00:42:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:42:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:42:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3): Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:42:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:42:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Module/Test Form/button_Submit now"), 5): Object 'Object Repository/Module/Test Form/button_Submit now' is present
+
+20-08-2025T00:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/button_Submit now' is present
+
+20-08-2025T00:42:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:42:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621738034.png]]
+
+20-08-2025T00:42:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:42:18 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:42:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:42:18 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:42:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)" time="21.142" classname="Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:42:18 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton): Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)
+
+20-08-2025T00:42:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:42:19 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:42:19 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:19 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:42:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:42:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:42:21 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:42:21 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:21 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:42:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:42:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "Mag"): Text 'Mag' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:42:31 - [MESSAGE][PASSED] - Text 'Mag' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Tan"): Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:42:32 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com"): Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:42:33 - [MESSAGE][PASSED] - Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:42:33 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Male")): Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:42:33 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:42:33 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Female")): Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:42:33 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567"): Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:42:34 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:42:34 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:42:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990"): Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:42:35 - [MESSAGE][PASSED] - Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Music")): Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Sports")): Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Reading")): Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:42:37 - [TEST_STEP][PASSED] - clearText(findTestObject("Module/Test Form/input_First Name"), STOP_ON_FAILURE): Text of object 'Object Repository/Module/Test Form/input_First Name' is cleared
+
+20-08-2025T00:42:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Module/Test Form/input_First Name' is cleared
+
+20-08-2025T00:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:42:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Last Name' successfully
+
+20-08-2025T00:42:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/radiobutton_Female"), 3): Scroll to object 'Object Repository/Module/Test Form/radiobutton_Female' successfully
+
+20-08-2025T00:42:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/radiobutton_Female' successfully
+
+20-08-2025T00:42:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Date of Birth"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Date of Birth' successfully
+
+20-08-2025T00:42:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Date of Birth' successfully
+
+20-08-2025T00:42:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3): Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:42:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:42:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:42:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621759321.png]]
+
+20-08-2025T00:42:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:42:39 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:42:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:42:40 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:42:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number" time="17.13" classname="Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:42:40 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number: Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number
+
+20-08-2025T00:42:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:42:40 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:42:40 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:42:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:42:41 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:42:42 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:42:42 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:42 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:42:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:42:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:42:47 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "Yen"): Text 'Yen' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:42:50 - [MESSAGE][PASSED] - Text 'Yen' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:42:50 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Ho"): Text 'Ho' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:42:51 - [MESSAGE][PASSED] - Text 'Ho' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "bn@gmail.12"): Text 'bn@gmail.12' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:42:52 - [MESSAGE][PASSED] - Text 'bn@gmail.12' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:42:52 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Female")): Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:42:52 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid email", false): Text 'Please enter a valid email' is present on page 
+
+20-08-2025T00:42:53 - [MESSAGE][PASSED] - Text 'Please enter a valid email' is present on page 
+
+20-08-2025T00:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Mobile number")): Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:42:53 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "898878883"): Text '898878883' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:42:54 - [MESSAGE][PASSED] - Text '898878883' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:42:55 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid mobile number", false): Text 'Please enter a valid mobile number' is present on page 
+
+20-08-2025T00:42:55 - [MESSAGE][PASSED] - Text 'Please enter a valid mobile number' is present on page 
+
+20-08-2025T00:42:55 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:42:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Module/Test Form/button_Submit now")): Object 'Object Repository/Module/Test Form/button_Submit now' is visible
+
+20-08-2025T00:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/button_Submit now' is visible
+
+20-08-2025T00:42:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:42:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621776411.png]]
+
+20-08-2025T00:42:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:42:56 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:42:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:42:57 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:42:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected" time="26.027" classname="Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:42:57 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected: Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected
+
+20-08-2025T00:42:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:42:57 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:42:57 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:42:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:42:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:42:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:42:59 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:42:59 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:59 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:42:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:43:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:43:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "John"): Text 'John' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:09 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:09 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Tan"): Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:10 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:10 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jt123@gmail.com"): Text 'jt123@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:10 - [MESSAGE][PASSED] - Text 'jt123@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:10 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Male")): Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "023 45 22"): Text '023 45 22' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:12 - [MESSAGE][PASSED] - Text '023 45 22' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:43:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:43:15 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid mobile number", false): Text 'Please enter a valid mobile number' is present on page 
+
+20-08-2025T00:43:15 - [MESSAGE][PASSED] - Text 'Please enter a valid mobile number' is present on page 
+
+20-08-2025T00:43:15 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/2026"): Keys '20/01/2026' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:16 - [MESSAGE][PASSED] - Keys '20/01/2026' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Sports")): Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:43:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3): Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:43:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/button_Submit now' successfully
+
+20-08-2025T00:43:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:43:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:43:20 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:43:20 - [TEST_STEP][PASSED] - verifyTextPresent("Only dates today or before are allowed", false): Text 'Only dates today or before are allowed' is present on page 
+
+20-08-2025T00:43:21 - [MESSAGE][PASSED] - Text 'Only dates today or before are allowed' is present on page 
+
+20-08-2025T00:43:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Module/Test Form/errorMsg_None_Hobbies_Check"), "This field is required"): Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_None_Hobbies_Check' are matched.
+
+20-08-2025T00:43:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Module/Test Form/errorMsg_None_Hobbies_Check' are matched.
+
+20-08-2025T00:43:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Module/Test Form/button_Submit now")): Object 'Object Repository/Module/Test Form/button_Submit now' is visible
+
+20-08-2025T00:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/button_Submit now' is visible
+
+20-08-2025T00:43:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:43:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Mobile number' successfully
+
+20-08-2025T00:43:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/input_Date of Birth"), 3): Scroll to object 'Object Repository/Module/Test Form/input_Date of Birth' successfully
+
+20-08-2025T00:43:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/input_Date of Birth' successfully
+
+20-08-2025T00:43:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:43:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621802496.png]]
+
+20-08-2025T00:43:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:43:22 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:43:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:43:23 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:43:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC7_Negative_Wrong Date Format" time="17.213" classname="Test Cases/FormPage/TC7_Negative_Wrong Date Format" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:43:23 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC7_Negative_Wrong Date Format: Test Cases/FormPage/TC7_Negative_Wrong Date Format
+
+20-08-2025T00:43:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:43:23 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:43:23 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:43:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:43:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:43:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:43:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:43:25 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:43:25 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:43:25 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:43:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:43:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:43:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:43:30 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "John"): Text 'John' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:34 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Tan"): Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:35 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:35 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jt123@gmail.com"): Text 'jt123@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:35 - [MESSAGE][PASSED] - Text 'jt123@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:36 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Male")): Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Mobile number")): Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "98765432"): Text '98765432' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:37 - [MESSAGE][PASSED] - Text '98765432' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:37 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:38 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "0d/01/1990"): Keys '0d/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:38 - [MESSAGE][PASSED] - Keys '0d/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Music")): Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:43:39 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid date", false): Text 'Please enter a valid date' is present on page 
+
+20-08-2025T00:43:39 - [MESSAGE][PASSED] - Text 'Please enter a valid date' is present on page 
+
+20-08-2025T00:43:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:43:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621819695.png]]
+
+20-08-2025T00:43:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:43:40 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:43:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:43:40 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:43:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC8_Negative_Exceed File Size" time="25.862" classname="Test Cases/FormPage/TC8_Negative_Exceed File Size" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:43:40 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC8_Negative_Exceed File Size: Test Cases/FormPage/TC8_Negative_Exceed File Size
+
+20-08-2025T00:43:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:43:40 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:43:40 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:43:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:43:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:43:42 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:43:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:43:42 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:43:42 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:43:42 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:43:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:43:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:43:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_First Name")): Object: 'Object Repository/Module/Test Form/input_First Name' is clicked on
+
+20-08-2025T00:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_First Name' is clicked on
+
+20-08-2025T00:43:50 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "File Validation"): Text 'File Validation' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:51 - [MESSAGE][PASSED] - Text 'File Validation' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:43:51 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Last Name")): Object: 'Object Repository/Module/Test Form/input_Last Name' is clicked on
+
+20-08-2025T00:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Last Name' is clicked on
+
+20-08-2025T00:43:52 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Exceed 7 MB"): Text 'Exceed 7 MB' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:52 - [MESSAGE][PASSED] - Text 'Exceed 7 MB' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Email"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Email' is clicked on
+
+20-08-2025T00:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Email' is clicked on
+
+20-08-2025T00:43:53 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com"): Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:53 - [MESSAGE][PASSED] - Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:43:53 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Female")): Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:43:54 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Mobile number")): Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567"): Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:55 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:43:55 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:43:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:43:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:43:58 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:43:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990"): Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:59 - [MESSAGE][PASSED] - Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:43:59 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Music")): Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Music' is clicked on
+
+20-08-2025T00:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Sports")): Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:44:00 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Reading")): Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:44:01 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\FileSizeExceed.pdf"): null
+
+20-08-2025T00:44:01 - [TEST_STEP][PASSED] - verifyTextPresent("You have exceeded the file size limit, please upload a file below 7 MB", false): Text 'You have exceeded the file size limit, please upload a file below 7 MB' is present on page 
+
+20-08-2025T00:44:01 - [MESSAGE][PASSED] - Text 'You have exceeded the file size limit, please upload a file below 7 MB' is present on page 
+
+20-08-2025T00:44:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Module/Test Form/DragandDropArea"), 5): Scroll to object 'Object Repository/Module/Test Form/DragandDropArea' successfully
+
+20-08-2025T00:44:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Module/Test Form/DragandDropArea' successfully
+
+20-08-2025T00:44:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 5): Web element with id: 'Object Repository/Module/Test Form/buttonRemoveFile' located by 'By.xpath: //*[@id="root"]/div/div[2]/div[4]/div[1]/div[1]/form/div[1]/div/div[8]/div[2]/div[1]/div/div[2]/button' is not present after '5' second(s)
+
+20-08-2025T00:44:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Module/Test Form/buttonRemoveFile' located by 'By.xpath: //*[@id="root"]/div/div[2]/div[4]/div[1]/div[1]/form/div[1]/div/div[8]/div[2]/div[1]/div/div[2]/button' is not present after '5' second(s)
+
+20-08-2025T00:44:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:44:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621845554.png]]
+
+20-08-2025T00:44:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:44:06 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:44:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:44:06 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:44:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC9_Negative_File Validation" time="37.84" classname="Test Cases/FormPage/TC9_Negative_File Validation" status="PASSED">
+         <system-out><![CDATA[20-08-2025T00:44:06 - [TEST_CASE][PASSED] - Test Cases/FormPage/TC9_Negative_File Validation: Test Cases/FormPage/TC9_Negative_File Validation
+
+20-08-2025T00:44:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:44:06 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:44:06 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:44:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:44:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:44:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:44:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:44:08 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:44:08 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:44:08 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:44:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:44:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:44:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_First Name")): Object: 'Object Repository/Module/Test Form/input_First Name' is clicked on
+
+20-08-2025T00:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_First Name' is clicked on
+
+20-08-2025T00:44:18 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "Alice"): Text 'Alice' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:44:18 - [MESSAGE][PASSED] - Text 'Alice' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Last Name")): Object: 'Object Repository/Module/Test Form/input_Last Name' is clicked on
+
+20-08-2025T00:44:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Last Name' is clicked on
+
+20-08-2025T00:44:19 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Tan"): Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:44:20 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Email"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Email' is clicked on
+
+20-08-2025T00:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Email' is clicked on
+
+20-08-2025T00:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com"): Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:44:21 - [MESSAGE][PASSED] - Text 'jt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:44:21 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Female")): Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Female' is checked
+
+20-08-2025T00:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Mobile number")): Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Mobile number' is clicked on
+
+20-08-2025T00:44:21 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567"): Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:44:22 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:44:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:25 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:44:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990"): Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:44:26 - [MESSAGE][PASSED] - Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:44:26 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Sports")): Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Reading")): Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:44:27 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\03 This Is The Day.wma"): null
+
+20-08-2025T00:44:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Module/Test Form/errorMsg_wma"), 3): Object 'Object Repository/Module/Test Form/errorMsg_wma' is present
+
+20-08-2025T00:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/errorMsg_wma' is present
+
+20-08-2025T00:44:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:31 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\Track01.cda"): null
+
+20-08-2025T00:44:31 - [TEST_STEP][PASSED] - verifyTextPresent("Your file's extension ending in *.cda is not allowed", false): Text 'Your file's extension ending in *.cda is not allowed' is present on page 
+
+20-08-2025T00:44:32 - [MESSAGE][PASSED] - Text 'Your file's extension ending in *.cda is not allowed' is present on page 
+
+20-08-2025T00:44:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:35 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\TestForm.docx"): null
+
+20-08-2025T00:44:35 - [TEST_STEP][PASSED] - verifyTextPresent(".docx", false): Text '.docx' is present on page 
+
+20-08-2025T00:44:36 - [MESSAGE][PASSED] - Text '.docx' is present on page 
+
+20-08-2025T00:44:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3): Object 'Object Repository/Module/Test Form/buttonRemoveFile' is present
+
+20-08-2025T00:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/buttonRemoveFile' is present
+
+20-08-2025T00:44:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:39 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\image.jpg"): null
+
+20-08-2025T00:44:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3): Object 'Object Repository/Module/Test Form/buttonRemoveFile' is present
+
+20-08-2025T00:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/buttonRemoveFile' is present
+
+20-08-2025T00:44:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:44:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:44:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+20-08-2025T00:44:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621883384.png]]
+
+20-08-2025T00:44:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Close Browser' successfully
+
+20-08-2025T00:44:43 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Close Browser: Test Cases/Common/TC_Close Browser
+
+20-08-2025T00:44:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+20-08-2025T00:44:44 - [MESSAGE][PASSED] - Browser is closed
+
+20-08-2025T00:44:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)" time="20.568" classname="Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)&#xa;	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[20-08-2025T00:45:17 - [TEST_CASE][FAILED] - Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields): Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+20-08-2025T00:45:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:45:17 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:45:17 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:45:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-08-2025T00:45:17 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+20-08-2025T00:45:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:45:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:45:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:45:19 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:45:19 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:45:19 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:45:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:45:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:45:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:45:24 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), "Brandy"): Text 'Brandy' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:45:28 - [MESSAGE][PASSED] - Text 'Brandy' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:45:28 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), "Tan"): Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:45:29 - [MESSAGE][PASSED] - Text 'Tan' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:45:29 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), "jbtt@gmail.com"): Text 'jbtt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:45:30 - [MESSAGE][PASSED] - Text 'jbtt@gmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:45:30 - [TEST_STEP][PASSED] - check(findTestObject("Module/Test Form/radiobutton_Male")): Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:45:31 - [MESSAGE][PASSED] - Object 'Object Repository/Module/Test Form/radiobutton_Male' is checked
+
+20-08-2025T00:45:31 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567"): Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:45:31 - [MESSAGE][PASSED] - Text '91234567' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:45:31 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:45:32 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:45:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990"): Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:45:33 - [MESSAGE][PASSED] - Keys '20/01/1990' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Sports")): Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Sports' is clicked on
+
+20-08-2025T00:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Reading")): Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:45:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:45:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:45:37 - [TEST_STEP][FAILED] - verifyTextPresent("Thank you for filling out the form.", false): Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+20-08-2025T00:45:37 - [MESSAGE][FAILED] - Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+20-08-2025T00:45:37 - [MESSAGE][FAILED] - Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS1_Test Suite Scenario\\20250820_003257\\1755621937803.png]]]]></system-out>
+         <system-err><![CDATA[20-08-2025T00:45:17 - [TEST_CASE][FAILED] - Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields): Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621177126.run(TempTestSuite1755621177126.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-08-2025T00:41:41 - [TEST_SUITE][FAILED] - TS1_Test Suite Scenario: null]]></system-out>
+      <system-err><![CDATA[20-08-2025T00:41:41 - [TEST_SUITE][FAILED] - TS1_Test Suite Scenario: null]]></system-err>
+   </testsuite>
+</testsuites>

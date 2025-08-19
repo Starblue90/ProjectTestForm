@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_Negative_Wrong Date Format</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3923c617-5fe8-4ed4-8b4b-6df3f0f95b4a</testCaseGuid>
+</TestCaseEntity>

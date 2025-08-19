@@ -1,0 +1,185 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_Test Suite Scenario,Chrome 139.0.7258.128,,,20-08-2025 00:33:09,20-08-2025 00:37:00,3m - 51.397s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC3_Negative_Empty Fields,Chrome 139.0.7258.128,,,20-08-2025 00:33:10,20-08-2025 00:33:44,34.098s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:33:10,20-08-2025 00:33:19,8.730s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:19,20-08-2025 00:33:23,3.531s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:33:23,20-08-2025 00:33:26,3.015s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:26,20-08-2025 00:33:26,0.294s,PASSED
+delay(0),Chrome 139.0.7258.128,,,20-08-2025 00:33:26,20-08-2025 00:33:26,0.007s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:26,20-08-2025 00:33:26,0.297s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:33:26,20-08-2025 00:33:29,3.011s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/textarea_Address(optional)""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:29,20-08-2025 00:33:29,0.313s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:33:29,20-08-2025 00:33:30,0.601s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_First Name""), ""This field is required"", STOP_ON_FAILURE)",Chrome 139.0.7258.128,Verify the error messages are displayed for all the mandate fields,,20-08-2025 00:33:30,20-08-2025 00:33:31,0.413s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Last Name""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:31,20-08-2025 00:33:31,0.290s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Email""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:31,20-08-2025 00:33:31,0.279s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Gender""), ""This field is required"", STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:33:31,20-08-2025 00:33:31,0.280s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:31,20-08-2025 00:33:32,0.285s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Date of Birth""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:32,20-08-2025 00:33:32,0.290s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:32,20-08-2025 00:33:32,0.270s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Hobbies""), ""This field is required"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:32,20-08-2025 00:33:33,0.290s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:33,20-08-2025 00:33:33,0.272s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:33:33,20-08-2025 00:33:36,3.008s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:36,20-08-2025 00:33:36,0.304s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:33:36,20-08-2025 00:33:39,3.009s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:39,20-08-2025 00:33:39,0.263s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:33:39,20-08-2025 00:33:42,3.006s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:33:42,20-08-2025 00:33:43,0.282s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/button_Submit now""), 5)",Chrome 139.0.7258.128,Verify the form is not submitted when the fields are not entered,,20-08-2025 00:33:43,20-08-2025 00:33:43,0.271s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:33:43,20-08-2025 00:33:43,0.393s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:33:43,20-08-2025 00:33:44,0.448s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton),Chrome 139.0.7258.128,,,20-08-2025 00:33:44,20-08-2025 00:34:04,20.451s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:33:44,20-08-2025 00:33:51,6.958s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Mag"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:51,20-08-2025 00:33:55,4.126s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:55,20-08-2025 00:33:56,0.807s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:56,20-08-2025 00:33:57,0.815s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Chrome 139.0.7258.128,,,20-08-2025 00:33:57,20-08-2025 00:33:57,0.552s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Chrome 139.0.7258.128,,,20-08-2025 00:33:57,20-08-2025 00:33:58,0.375s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:58,20-08-2025 00:33:58,0.726s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:33:58,20-08-2025 00:33:59,0.422s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:33:59,20-08-2025 00:33:59,0.382s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Chrome 139.0.7258.128,,,20-08-2025 00:33:59,20-08-2025 00:34:00,0.407s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Chrome 139.0.7258.128,Verify multiple checkboxes selection are allowed,,20-08-2025 00:34:00,20-08-2025 00:34:00,0.556s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:00,20-08-2025 00:34:01,0.625s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:01,20-08-2025 00:34:01,0.404s,PASSED
+"clearText(findTestObject(""Module/Test Form/input_First Name""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,"Verify if “First Name” is removed, the form is not submitted",,20-08-2025 00:34:01,20-08-2025 00:34:01,0.320s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:01,20-08-2025 00:34:02,0.674s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:02,20-08-2025 00:34:03,0.536s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/radiobutton_Female""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:03,20-08-2025 00:34:03,0.287s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Date of Birth""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:03,20-08-2025 00:34:03,0.264s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:03,20-08-2025 00:34:03,0.266s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:34:03,20-08-2025 00:34:04,0.372s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:04,20-08-2025 00:34:04,0.412s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number,Chrome 139.0.7258.128,,,20-08-2025 00:34:04,20-08-2025 00:34:22,17.535s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:04,20-08-2025 00:34:11,6.743s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Yen"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:11,20-08-2025 00:34:15,4.200s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Ho"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:15,20-08-2025 00:34:16,1.007s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""bn@gmail.12"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:16,20-08-2025 00:34:17,0.797s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:17,20-08-2025 00:34:18,0.478s,PASSED
+"verifyTextPresent(""Please enter a valid email"", false)",Chrome 139.0.7258.128,Verify field validation for email ,,20-08-2025 00:34:18,20-08-2025 00:34:18,0.591s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:18,20-08-2025 00:34:19,0.381s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""898878883"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:19,20-08-2025 00:34:19,0.670s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:19,20-08-2025 00:34:20,0.386s,PASSED
+"verifyTextPresent(""Please enter a valid mobile number"", false)",Chrome 139.0.7258.128,Verify field validation for mobile,,20-08-2025 00:34:20,20-08-2025 00:34:20,0.499s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:20,20-08-2025 00:34:20,0.371s,PASSED
+"verifyElementVisible(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:20,20-08-2025 00:34:21,0.514s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:34:21,20-08-2025 00:34:21,0.398s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:21,20-08-2025 00:34:22,0.396s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected,Chrome 139.0.7258.128,,,20-08-2025 00:34:22,20-08-2025 00:34:47,25.109s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:22,20-08-2025 00:34:29,6.797s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""John"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:29,20-08-2025 00:34:33,3.997s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:33,20-08-2025 00:34:34,0.843s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt123@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:34,20-08-2025 00:34:34,0.882s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:34,20-08-2025 00:34:35,0.548s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""023 45 22"")",Chrome 139.0.7258.128,Verify field validation for invalid mobile,,20-08-2025 00:34:35,20-08-2025 00:34:36,0.729s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:36,20-08-2025 00:34:36,0.423s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:34:36,20-08-2025 00:34:39,3.006s,PASSED
+"verifyTextPresent(""Please enter a valid mobile number"", false)",Chrome 139.0.7258.128,,,20-08-2025 00:34:39,20-08-2025 00:34:39,0.292s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:39,20-08-2025 00:34:40,0.265s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/2026"")",Chrome 139.0.7258.128,Verify for future date field validation,,20-08-2025 00:34:40,20-08-2025 00:34:40,0.400s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:40,20-08-2025 00:34:40,0.433s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:40,20-08-2025 00:34:41,0.538s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:34:41,20-08-2025 00:34:44,3.004s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:44,20-08-2025 00:34:44,0.435s,PASSED
+"verifyTextPresent(""Only dates today or before are allowed"", false)",Chrome 139.0.7258.128,,,20-08-2025 00:34:44,20-08-2025 00:34:45,0.521s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_None_Hobbies_Check""), ""This field is required"")",Chrome 139.0.7258.128,Verify validation at least 1 Hobby need to be selected,,20-08-2025 00:34:45,20-08-2025 00:34:45,0.291s,PASSED
+"verifyElementVisible(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:45,20-08-2025 00:34:46,0.272s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:46,20-08-2025 00:34:46,0.280s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Date of Birth""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:34:46,20-08-2025 00:34:46,0.260s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:34:46,20-08-2025 00:34:46,0.394s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:46,20-08-2025 00:34:47,0.377s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC7_Negative_Wrong Date Format,Chrome 139.0.7258.128,,,20-08-2025 00:34:47,20-08-2025 00:35:04,17.121s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:34:47,20-08-2025 00:34:54,6.880s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""John"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:54,20-08-2025 00:34:58,3.845s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:58,20-08-2025 00:34:58,0.768s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt123@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:34:58,20-08-2025 00:34:59,0.931s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Chrome 139.0.7258.128,,,20-08-2025 00:34:59,20-08-2025 00:35:00,0.540s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:00,20-08-2025 00:35:00,0.401s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""98765432"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:00,20-08-2025 00:35:01,0.722s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:01,20-08-2025 00:35:02,0.458s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:02,20-08-2025 00:35:02,0.340s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""0d/01/1990"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:02,20-08-2025 00:35:02,0.394s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:02,20-08-2025 00:35:03,0.460s,PASSED
+"verifyTextPresent(""Please enter a valid date"", false)",Chrome 139.0.7258.128,Verify field validation for date format,,20-08-2025 00:35:03,20-08-2025 00:35:03,0.556s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:35:03,20-08-2025 00:35:04,0.371s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:04,20-08-2025 00:35:04,0.349s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC8_Negative_Exceed File Size,Chrome 139.0.7258.128,,,20-08-2025 00:35:04,20-08-2025 00:35:30,26.458s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:04,20-08-2025 00:35:11,6.815s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:11,20-08-2025 00:35:15,3.687s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""File Validation"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:15,20-08-2025 00:35:15,0.836s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:15,20-08-2025 00:35:16,0.525s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Exceed 7 MB"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:16,20-08-2025 00:35:17,0.666s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:17,20-08-2025 00:35:17,0.420s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:17,20-08-2025 00:35:18,0.733s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:18,20-08-2025 00:35:18,0.589s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:18,20-08-2025 00:35:19,0.369s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:19,20-08-2025 00:35:19,0.709s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:19,20-08-2025 00:35:20,0.463s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:35:20,20-08-2025 00:35:23,3.003s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:23,20-08-2025 00:35:23,0.278s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:23,20-08-2025 00:35:24,0.415s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:24,20-08-2025 00:35:24,0.445s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:24,20-08-2025 00:35:25,0.645s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:25,20-08-2025 00:35:25,0.368s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\FileSizeExceed.pdf"")",Chrome 139.0.7258.128,"Verify when a file that exceed 7MB is uploaded, the file is not uploaded",,20-08-2025 00:35:25,20-08-2025 00:35:25,0.319s,PASSED
+"verifyTextPresent(""You have exceeded the file size limit, please upload a file below 7 MB"", false)",Chrome 139.0.7258.128,,,20-08-2025 00:35:25,20-08-2025 00:35:26,0.519s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/DragandDropArea""), 5)",Chrome 139.0.7258.128,,,20-08-2025 00:35:26,20-08-2025 00:35:26,0.298s,PASSED
+"verifyElementNotPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 5)",Chrome 139.0.7258.128,,,20-08-2025 00:35:26,20-08-2025 00:35:27,0.428s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:35:27,20-08-2025 00:35:30,3.004s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:35:30,20-08-2025 00:35:30,0.391s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:30,20-08-2025 00:35:30,0.401s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC9_Negative_File Validation,Chrome 139.0.7258.128,,,20-08-2025 00:35:30,20-08-2025 00:36:07,36.741s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:31,20-08-2025 00:35:37,6.780s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:37,20-08-2025 00:35:41,3.691s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Alice"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:41,20-08-2025 00:35:42,0.760s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:42,20-08-2025 00:35:42,0.566s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:42,20-08-2025 00:35:43,0.675s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:43,20-08-2025 00:35:43,0.429s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:43,20-08-2025 00:35:44,0.718s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:44,20-08-2025 00:35:45,0.455s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:45,20-08-2025 00:35:45,0.371s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:45,20-08-2025 00:35:46,0.674s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:46,20-08-2025 00:35:46,0.496s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:35:46,20-08-2025 00:35:49,3.003s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:35:49,20-08-2025 00:35:49,0.273s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Chrome 139.0.7258.128,,,20-08-2025 00:35:49,20-08-2025 00:35:50,0.402s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:50,20-08-2025 00:35:50,0.409s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Chrome 139.0.7258.128,,,20-08-2025 00:35:50,20-08-2025 00:35:51,0.603s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\03 This Is The Day.wma"")",Chrome 139.0.7258.128,Verify for invalid file type validation ,,20-08-2025 00:35:51,20-08-2025 00:35:51,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/errorMsg_wma""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:35:51,20-08-2025 00:35:52,0.503s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:35:52,20-08-2025 00:35:55,3.004s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\Track01.cda"")",Chrome 139.0.7258.128,Verify for invalid file type validation ,,20-08-2025 00:35:55,20-08-2025 00:35:55,0.300s,PASSED
+"verifyTextPresent(""Your file's extension ending in *.cda is not allowed"", false)",Chrome 139.0.7258.128,,,20-08-2025 00:35:55,20-08-2025 00:35:56,0.547s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:35:56,20-08-2025 00:35:59,3.005s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\TestForm.docx"")",Chrome 139.0.7258.128,Verify for valid file type validation ,,20-08-2025 00:35:59,20-08-2025 00:35:59,0.304s,PASSED
+"verifyTextPresent("".docx"", false)",Chrome 139.0.7258.128,,,20-08-2025 00:35:59,20-08-2025 00:35:59,0.527s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:35:59,20-08-2025 00:36:00,0.243s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:36:00,20-08-2025 00:36:03,3.005s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\image.jpg"")",Chrome 139.0.7258.128,Verify for both valid file type validation ,,20-08-2025 00:36:03,20-08-2025 00:36:03,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Chrome 139.0.7258.128,,,20-08-2025 00:36:03,20-08-2025 00:36:03,0.485s,PASSED
+delay(3),Chrome 139.0.7258.128,Waits for file to load,,20-08-2025 00:36:03,20-08-2025 00:36:06,3.005s,PASSED
+takeScreenshot(),Chrome 139.0.7258.128,,,20-08-2025 00:36:06,20-08-2025 00:36:07,0.388s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:36:07,20-08-2025 00:36:07,0.369s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields),Chrome 139.0.7258.128,,,20-08-2025 00:36:39,20-08-2025 00:37:00,20.649s,FAILED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:36:39,20-08-2025 00:36:46,7.104s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Brandy"")",Chrome 139.0.7258.128,,,20-08-2025 00:36:46,20-08-2025 00:36:51,4.082s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Chrome 139.0.7258.128,,,20-08-2025 00:36:51,20-08-2025 00:36:51,0.898s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jbtt@gmail.com"")",Chrome 139.0.7258.128,,,20-08-2025 00:36:51,20-08-2025 00:36:52,0.795s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Chrome 139.0.7258.128,,,20-08-2025 00:36:52,20-08-2025 00:36:53,0.452s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Chrome 139.0.7258.128,,,20-08-2025 00:36:53,20-08-2025 00:36:54,0.824s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:36:54,20-08-2025 00:36:54,0.486s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:36:54,20-08-2025 00:36:54,0.328s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Chrome 139.0.7258.128,,,20-08-2025 00:36:54,20-08-2025 00:36:55,0.430s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Chrome 139.0.7258.128,,,20-08-2025 00:36:55,20-08-2025 00:36:55,0.433s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Chrome 139.0.7258.128,,,20-08-2025 00:36:55,20-08-2025 00:36:56,0.599s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:36:56,20-08-2025 00:36:56,0.486s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:36:56,20-08-2025 00:36:59,3.006s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Chrome 139.0.7258.128,,,20-08-2025 00:36:59,20-08-2025 00:37:00,0.601s,FAILED

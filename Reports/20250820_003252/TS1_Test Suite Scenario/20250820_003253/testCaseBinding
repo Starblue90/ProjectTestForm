@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/FormPage/TC3_Negative_Empty Fields","testCaseId":"Test Cases/FormPage/TC3_Negative_Empty Fields","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)","testCaseId":"Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number","testCaseId":"Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected","testCaseId":"Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC7_Negative_Wrong Date Format","testCaseId":"Test Cases/FormPage/TC7_Negative_Wrong Date Format","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC8_Negative_Exceed File Size","testCaseId":"Test Cases/FormPage/TC8_Negative_Exceed File Size","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC9_Negative_File Validation","testCaseId":"Test Cases/FormPage/TC9_Negative_File Validation","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)","testCaseId":"Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)","iterationVariableName":""}
+{"testCaseName":"Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)","testCaseId":"Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)","iterationVariableName":""}

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Data Driven Suite,Edge Chromium 139.0.3405.102,,,20-08-2025 00:48:51,20-08-2025 00:50:15,1m - 23.992s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC10_DataDriven_Successful Submission,Edge Chromium 139.0.3405.102,,,20-08-2025 00:49:48,20-08-2025 00:50:15,26.458s,FAILED
+"DATA BINDING - {""DateOfBirth"":""23011980"",""MobileNumber"":""89876543"",""Email"":""amy@hotmail.com"",""Address"":""345 Bukit Timah Singapore"",""FirstName"":""Danie"",""Hobby"":""Reading"",""LastName"":""Amy"",""Gender"":""Male"",""Location"":""West""}",,,,,,,
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:49:48,20-08-2025 00:49:55,7.108s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), FirstName)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:49:55,20-08-2025 00:50:00,4.441s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), LastName)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:00,20-08-2025 00:50:00,0.736s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), Email)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:00,20-08-2025 00:50:01,0.751s,PASSED
+"if (Gender == ""Male"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:01,20-08-2025 00:50:02,0.377s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), MobileNumber)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:02,20-08-2025 00:50:02,0.718s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:02,20-08-2025 00:50:03,0.389s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:03,20-08-2025 00:50:06,3.004s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:06,20-08-2025 00:50:06,0.305s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), DateOfBirth)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:06,20-08-2025 00:50:06,0.416s,PASSED
+"if (Hobby == ""Sport"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:06,20-08-2025 00:50:06,0.001s,PASSED
+"else if (Hobby == ""Music"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:06,20-08-2025 00:50:06,0.003s,PASSED
+else,Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:06,20-08-2025 00:50:07,0.439s,PASSED
+"click(findTestObject(""Module/Test Form/dropdown_SelectLocation""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:07,20-08-2025 00:50:07,0.621s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Location(optional)""), Location, STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:07,20-08-2025 00:50:09,1.139s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:09,20-08-2025 00:50:12,3.004s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Location(optional)""), Keys.chord(ENTER))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:12,20-08-2025 00:50:12,0.357s,PASSED
+"setText(findTestObject(""Module/Test Form/textarea_Address(optional)""), Address)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:12,20-08-2025 00:50:13,1.225s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:13,20-08-2025 00:50:14,0.499s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:50:14,20-08-2025 00:50:14,0.869s,FAILED

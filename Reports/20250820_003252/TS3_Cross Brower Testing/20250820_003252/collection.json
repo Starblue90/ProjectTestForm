@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/TS3_Cross Brower Testing",
+  "name": "TS3_Cross Brower Testing",
+  "reportFolder": "C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS3_Cross Brower Testing\\20250820_003252",
+  "startTime": 1755621185382,
+  "endTime": 1755622215764,
+  "totalPassedTestCases": "20",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "6",
+  "totalTestCases": "26",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": ""
+}

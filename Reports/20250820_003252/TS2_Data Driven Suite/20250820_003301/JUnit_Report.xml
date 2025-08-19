@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2_Data Driven Suite" time="93.408" tests="1" failures="1" errors="0">
+   <testsuite name="TS2_Data Driven Suite" tests="1" failures="1" errors="0" time="93.408" skipped="0" timestamp="2025-08-19T16:47:12.103Z" hostname="Winnie Lim - LAPTOP-B1MJ4OTP" id="Test Suites/TS2_Data Driven Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301"/>
+         <property name="logFiles" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\console0.log, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\1755622064770.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\1755622095288.png, C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\1755622125204.png"/>
+         <property name="hostName" value="Winnie Lim - LAPTOP-B1MJ4OTP"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Firefox 141.0.3"/>
+         <property name="userFullName" value="Win Eng"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="3a2c09e2-1198-46d9-8270-02cbe52f39d2"/>
+         <property name="projectName" value="ProjectTestForm"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/FormPage/TC10_DataDriven_Successful Submission" time="29.812" classname="Test Cases/FormPage/TC10_DataDriven_Successful Submission" status="FAILED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"DateOfBirth":"23011980","MobileNumber":"89876543","Email":"amy@hotmail.com","Address":"345 Bukit Timah Singapore","FirstName":"Danie","Hobby":"Reading","LastName":"Amy","Gender":"Male","Location":"West"}]]></property>
+         </properties>
+         <failure type="FAILED" message="Test Cases/FormPage/TC10_DataDriven_Successful Submission FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)&#xa;	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[20-08-2025T00:48:15 - [TEST_CASE][FAILED] - Test Cases/FormPage/TC10_DataDriven_Successful Submission: Test Cases/FormPage/TC10_DataDriven_Successful Submission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+
+20-08-2025T00:48:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:48:15 - [TEST_CASE][PASSED] - Test Cases/Common/TC_Launch Browser: Test Cases/Common/TC_Launch Browser
+
+20-08-2025T00:48:15 - [TEST_STEP][PASSED] - openBrowser("http://go.gov.sg/gt-qe"): Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:48:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-08-2025T00:48:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+20-08-2025T00:48:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-08-2025T00:48:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://go.gov.sg/gt-qe'
+
+20-08-2025T00:48:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+20-08-2025T00:48:21 - [MESSAGE][PASSED] - Current window maximized
+
+20-08-2025T00:48:21 - [TEST_STEP][NOT_RUN] - navigateToUrl("http://go.gov.sg/gt-qe"): NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:48:21 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+
+20-08-2025T00:48:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+20-08-2025T00:48:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+20-08-2025T00:48:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/TC_Launch Browser' successfully
+
+20-08-2025T00:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_First Name"), FirstName): Text 'Danie' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:48:30 - [MESSAGE][PASSED] - Text 'Danie' is set on object 'Object Repository/Module/Test Form/input_First Name'
+
+20-08-2025T00:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Last Name"), LastName): Text 'Amy' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:48:31 - [MESSAGE][PASSED] - Text 'Amy' is set on object 'Object Repository/Module/Test Form/input_Last Name'
+
+20-08-2025T00:48:31 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Email"), Email): Text 'amy@hotmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:48:32 - [MESSAGE][PASSED] - Text 'amy@hotmail.com' is set on object 'Object Repository/Module/Test Form/input_Email'
+
+20-08-2025T00:48:32 - [TEST_STEP][PASSED] - if (Gender == "Male"): Object: 'Object Repository/Module/Test Form/radiobutton_Male' is clicked on
+
+20-08-2025T00:48:32 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/radiobutton_Male")): Object: 'Object Repository/Module/Test Form/radiobutton_Male' is clicked on
+
+20-08-2025T00:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/radiobutton_Male' is clicked on
+
+20-08-2025T00:48:32 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Mobile number"), MobileNumber): Text '89876543' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:48:33 - [MESSAGE][PASSED] - Text '89876543' is set on object 'Object Repository/Module/Test Form/input_Mobile number'
+
+20-08-2025T00:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/input_Date of Birth")): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is clicked on
+
+20-08-2025T00:48:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:48:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:48:36 - [TEST_STEP][PASSED] - focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE): Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/input_Date of Birth' is focused
+
+20-08-2025T00:48:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), DateOfBirth): Keys '23011980' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:48:37 - [MESSAGE][PASSED] - Keys '23011980' sent to object: 'Object Repository/Module/Test Form/input_Date of Birth'
+
+20-08-2025T00:48:37 - [TEST_STEP][PASSED] - if (Hobby == "Sport"): null
+
+20-08-2025T00:48:37 - [TEST_STEP][PASSED] - else if (Hobby == "Music"): null
+
+20-08-2025T00:48:37 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/checkbox_Reading")): Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/checkbox_Reading' is clicked on
+
+20-08-2025T00:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/dropdown_SelectLocation")): Object: 'Object Repository/Module/Test Form/dropdown_SelectLocation' is clicked on
+
+20-08-2025T00:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/dropdown_SelectLocation' is clicked on
+
+20-08-2025T00:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/input_Location(optional)"), Location, STOP_ON_FAILURE): Text 'West' is set on object 'Object Repository/Module/Test Form/input_Location(optional)'
+
+20-08-2025T00:48:39 - [MESSAGE][PASSED] - Text 'West' is set on object 'Object Repository/Module/Test Form/input_Location(optional)'
+
+20-08-2025T00:48:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-08-2025T00:48:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-08-2025T00:48:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Module/Test Form/input_Location(optional)"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Module/Test Form/input_Location(optional)'
+
+20-08-2025T00:48:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Module/Test Form/input_Location(optional)'
+
+20-08-2025T00:48:42 - [TEST_STEP][PASSED] - setText(findTestObject("Module/Test Form/textarea_Address(optional)"), Address): Text '345 Bukit Timah Singapore' is set on object 'Object Repository/Module/Test Form/textarea_Address(optional)'
+
+20-08-2025T00:48:44 - [MESSAGE][PASSED] - Text '345 Bukit Timah Singapore' is set on object 'Object Repository/Module/Test Form/textarea_Address(optional)'
+
+20-08-2025T00:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Module/Test Form/button_Submit now")): Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Module/Test Form/button_Submit now' is clicked on
+
+20-08-2025T00:48:44 - [TEST_STEP][FAILED] - verifyTextPresent("Thank you for filling out the form.", false): Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+
+20-08-2025T00:48:45 - [MESSAGE][FAILED] - Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+20-08-2025T00:48:45 - [MESSAGE][FAILED] - Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\Winnie Lim\\git\\ProjectTestForm\\Reports\\20250820_003252\\TS2_Data Driven Suite\\20250820_003301\\1755622125204.png]]]]></system-out>
+         <system-err><![CDATA[20-08-2025T00:48:15 - [TEST_CASE][FAILED] - Test Cases/FormPage/TC10_DataDriven_Successful Submission: Test Cases/FormPage/TC10_DataDriven_Successful Submission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC10_DataDriven_Successful Submission.run(TC10_DataDriven_Successful Submission:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755621181152.run(TempTestSuite1755621181152.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-08-2025T00:47:12 - [TEST_SUITE][FAILED] - TS2_Data Driven Suite: null]]></system-out>
+      <system-err><![CDATA[20-08-2025T00:47:12 - [TEST_SUITE][FAILED] - TS2_Data Driven Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

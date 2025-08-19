@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Data Driven Suite,Chrome 139.0.7258.128,,,20-08-2025 00:26:39,20-08-2025 00:30:41,4m - 1.996s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC10_DataDriven_Successful Submission,Chrome 139.0.7258.128,,,20-08-2025 00:27:36,20-08-2025 00:28:02,26.666s,FAILED
+"DATA BINDING - {""DateOfBirth"":""12091970"",""MobileNumber"":""98765432"",""Email"":""bt@yahoo.com"",""Address"":""712 Bukit Batok Singapore"",""FirstName"":""Mark"",""Hobby"":""Sport"",""LastName"":""Tan"",""Gender"":""Male"",""Location"":""East""}",,,,,,,
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:27:36,20-08-2025 00:27:43,7.185s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), FirstName)",Chrome 139.0.7258.128,,,20-08-2025 00:27:43,20-08-2025 00:27:47,4.077s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), LastName)",Chrome 139.0.7258.128,,,20-08-2025 00:27:47,20-08-2025 00:27:48,0.841s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), Email)",Chrome 139.0.7258.128,,,20-08-2025 00:27:48,20-08-2025 00:27:49,0.790s,PASSED
+"if (Gender == ""Male"")",Chrome 139.0.7258.128,,,20-08-2025 00:27:49,20-08-2025 00:27:49,0.521s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), MobileNumber)",Chrome 139.0.7258.128,,,20-08-2025 00:27:49,20-08-2025 00:27:50,0.728s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:27:50,20-08-2025 00:27:50,0.453s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:27:50,20-08-2025 00:27:53,3.004s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:27:53,20-08-2025 00:27:54,0.299s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), DateOfBirth)",Chrome 139.0.7258.128,,,20-08-2025 00:27:54,20-08-2025 00:27:54,0.409s,PASSED
+"if (Hobby == ""Sport"")",Chrome 139.0.7258.128,,,20-08-2025 00:27:54,20-08-2025 00:27:55,0.482s,PASSED
+"click(findTestObject(""Module/Test Form/dropdown_SelectLocation""))",Chrome 139.0.7258.128,,,20-08-2025 00:27:55,20-08-2025 00:27:55,0.663s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Location(optional)""), Location, STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:27:55,20-08-2025 00:27:56,1.126s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:27:56,20-08-2025 00:27:59,3.004s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Location(optional)""), Keys.chord(ENTER))",Chrome 139.0.7258.128,,,20-08-2025 00:27:59,20-08-2025 00:28:00,0.321s,PASSED
+"setText(findTestObject(""Module/Test Form/textarea_Address(optional)""), Address)",Chrome 139.0.7258.128,,,20-08-2025 00:28:00,20-08-2025 00:28:01,1.247s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:28:01,20-08-2025 00:28:02,0.578s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Chrome 139.0.7258.128,,,20-08-2025 00:28:02,20-08-2025 00:28:02,0.883s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC10_DataDriven_Successful Submission,Chrome 139.0.7258.128,,,20-08-2025 00:28:55,20-08-2025 00:29:22,26.733s,FAILED
+"DATA BINDING - {""DateOfBirth"":""19091960"",""MobileNumber"":""87654321"",""Email"":""mm@gmail.com"",""Address"":""12 #02-40 Ang Mo Kio Singapore"",""FirstName"":""Mary"",""Hobby"":""Music"",""LastName"":""Ho"",""Gender"":""Female"",""Location"":""North""}",,,,,,,
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:28:55,20-08-2025 00:29:02,6.949s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), FirstName)",Chrome 139.0.7258.128,,,20-08-2025 00:29:02,20-08-2025 00:29:06,4.134s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), LastName)",Chrome 139.0.7258.128,,,20-08-2025 00:29:06,20-08-2025 00:29:07,0.981s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), Email)",Chrome 139.0.7258.128,,,20-08-2025 00:29:07,20-08-2025 00:29:08,0.967s,PASSED
+"if (Gender == ""Male"")",Chrome 139.0.7258.128,,,20-08-2025 00:29:08,20-08-2025 00:29:08,0.001s,PASSED
+else,Chrome 139.0.7258.128,,,20-08-2025 00:29:08,20-08-2025 00:29:09,0.537s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), MobileNumber)",Chrome 139.0.7258.128,,,20-08-2025 00:29:09,20-08-2025 00:29:09,0.809s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:29:09,20-08-2025 00:29:10,0.450s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:29:10,20-08-2025 00:29:13,3.004s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:29:13,20-08-2025 00:29:13,0.278s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), DateOfBirth)",Chrome 139.0.7258.128,,,20-08-2025 00:29:13,20-08-2025 00:29:14,0.409s,PASSED
+"if (Hobby == ""Sport"")",Chrome 139.0.7258.128,,,20-08-2025 00:29:14,20-08-2025 00:29:14,0.000s,PASSED
+"else if (Hobby == ""Music"")",Chrome 139.0.7258.128,,,20-08-2025 00:29:14,20-08-2025 00:29:14,0.414s,PASSED
+"click(findTestObject(""Module/Test Form/dropdown_SelectLocation""))",Chrome 139.0.7258.128,,,20-08-2025 00:29:14,20-08-2025 00:29:15,0.663s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Location(optional)""), Location, STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:29:15,20-08-2025 00:29:16,1.178s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:29:16,20-08-2025 00:29:19,3.003s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Location(optional)""), Keys.chord(ENTER))",Chrome 139.0.7258.128,,,20-08-2025 00:29:19,20-08-2025 00:29:19,0.322s,PASSED
+"setText(findTestObject(""Module/Test Form/textarea_Address(optional)""), Address)",Chrome 139.0.7258.128,,,20-08-2025 00:29:19,20-08-2025 00:29:20,1.228s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:29:20,20-08-2025 00:29:21,0.513s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Chrome 139.0.7258.128,,,20-08-2025 00:29:21,20-08-2025 00:29:22,0.852s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC10_DataDriven_Successful Submission,Chrome 139.0.7258.128,,,20-08-2025 00:30:14,20-08-2025 00:30:40,26.557s,FAILED
+"DATA BINDING - {""DateOfBirth"":""23011980"",""MobileNumber"":""89876543"",""Email"":""amy@hotmail.com"",""Address"":""345 Bukit Timah Singapore"",""FirstName"":""Danie"",""Hobby"":""Reading"",""LastName"":""Amy"",""Gender"":""Male"",""Location"":""West""}",,,,,,,
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:30:14,20-08-2025 00:30:21,7.067s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), FirstName)",Chrome 139.0.7258.128,,,20-08-2025 00:30:21,20-08-2025 00:30:25,4.164s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), LastName)",Chrome 139.0.7258.128,,,20-08-2025 00:30:25,20-08-2025 00:30:26,1.006s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), Email)",Chrome 139.0.7258.128,,,20-08-2025 00:30:26,20-08-2025 00:30:27,0.748s,PASSED
+"if (Gender == ""Male"")",Chrome 139.0.7258.128,,,20-08-2025 00:30:27,20-08-2025 00:30:27,0.525s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), MobileNumber)",Chrome 139.0.7258.128,,,20-08-2025 00:30:27,20-08-2025 00:30:28,0.752s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Chrome 139.0.7258.128,,,20-08-2025 00:30:28,20-08-2025 00:30:29,0.439s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:30:29,20-08-2025 00:30:32,3.004s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:30:32,20-08-2025 00:30:32,0.292s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), DateOfBirth)",Chrome 139.0.7258.128,,,20-08-2025 00:30:32,20-08-2025 00:30:32,0.383s,PASSED
+"if (Hobby == ""Sport"")",Chrome 139.0.7258.128,,,20-08-2025 00:30:32,20-08-2025 00:30:32,0.002s,PASSED
+"else if (Hobby == ""Music"")",Chrome 139.0.7258.128,,,20-08-2025 00:30:32,20-08-2025 00:30:32,0.001s,PASSED
+else,Chrome 139.0.7258.128,,,20-08-2025 00:30:32,20-08-2025 00:30:33,0.447s,PASSED
+"click(findTestObject(""Module/Test Form/dropdown_SelectLocation""))",Chrome 139.0.7258.128,,,20-08-2025 00:30:33,20-08-2025 00:30:33,0.619s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Location(optional)""), Location, STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,20-08-2025 00:30:33,20-08-2025 00:30:34,1.130s,PASSED
+delay(3),Chrome 139.0.7258.128,,,20-08-2025 00:30:34,20-08-2025 00:30:37,3.003s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Location(optional)""), Keys.chord(ENTER))",Chrome 139.0.7258.128,,,20-08-2025 00:30:37,20-08-2025 00:30:38,0.338s,PASSED
+"setText(findTestObject(""Module/Test Form/textarea_Address(optional)""), Address)",Chrome 139.0.7258.128,,,20-08-2025 00:30:38,20-08-2025 00:30:39,1.208s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Chrome 139.0.7258.128,,,20-08-2025 00:30:39,20-08-2025 00:30:40,0.535s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Chrome 139.0.7258.128,,,20-08-2025 00:30:40,20-08-2025 00:30:40,0.850s,FAILED

@@ -1,0 +1,161 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_Test Suite Scenario,Firefox 141.0.3,,,20-08-2025 00:37:06,20-08-2025 00:41:34,4m - 28.857s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC3_Negative_Empty Fields,Firefox 141.0.3,,,20-08-2025 00:37:07,20-08-2025 00:37:45,38.496s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:37:07,20-08-2025 00:37:20,12.953s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:20,20-08-2025 00:37:23,3.233s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:37:23,20-08-2025 00:37:26,3.013s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:26,20-08-2025 00:37:27,0.266s,PASSED
+delay(0),Firefox 141.0.3,,,20-08-2025 00:37:27,20-08-2025 00:37:27,0.006s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:27,20-08-2025 00:37:27,0.259s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:37:27,20-08-2025 00:37:30,3.017s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/textarea_Address(optional)""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:30,20-08-2025 00:37:30,0.295s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:37:30,20-08-2025 00:37:31,0.608s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_First Name""), ""This field is required"", STOP_ON_FAILURE)",Firefox 141.0.3,Verify the error messages are displayed for all the mandate fields,,20-08-2025 00:37:31,20-08-2025 00:37:31,0.381s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Last Name""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:31,20-08-2025 00:37:32,0.254s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Email""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:32,20-08-2025 00:37:32,0.285s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Gender""), ""This field is required"", STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:37:32,20-08-2025 00:37:32,0.272s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:32,20-08-2025 00:37:32,0.270s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Date of Birth""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:32,20-08-2025 00:37:33,0.280s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:33,20-08-2025 00:37:33,0.287s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Hobbies""), ""This field is required"")",Firefox 141.0.3,,,20-08-2025 00:37:33,20-08-2025 00:37:33,0.272s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:33,20-08-2025 00:37:33,0.261s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:37:33,20-08-2025 00:37:36,3.011s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:36,20-08-2025 00:37:37,0.271s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:37:37,20-08-2025 00:37:40,3.024s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:40,20-08-2025 00:37:40,0.269s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:37:40,20-08-2025 00:37:43,3.005s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Firefox 141.0.3,,,20-08-2025 00:37:43,20-08-2025 00:37:43,0.243s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/button_Submit now""), 5)",Firefox 141.0.3,Verify the form is not submitted when the fields are not entered,,20-08-2025 00:37:43,20-08-2025 00:37:44,0.251s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:37:44,20-08-2025 00:37:44,0.319s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:37:44,20-08-2025 00:37:45,1.142s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton),Firefox 141.0.3,,,20-08-2025 00:37:45,20-08-2025 00:38:08,23.232s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:37:45,20-08-2025 00:37:55,9.757s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Mag"")",Firefox 141.0.3,,,20-08-2025 00:37:55,20-08-2025 00:37:59,3.804s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Firefox 141.0.3,,,20-08-2025 00:37:59,20-08-2025 00:37:59,0.807s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Firefox 141.0.3,,,20-08-2025 00:37:59,20-08-2025 00:38:00,0.802s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Firefox 141.0.3,,,20-08-2025 00:38:00,20-08-2025 00:38:01,0.353s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Firefox 141.0.3,,,20-08-2025 00:38:01,20-08-2025 00:38:01,0.332s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Firefox 141.0.3,,,20-08-2025 00:38:01,20-08-2025 00:38:02,0.847s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:38:02,20-08-2025 00:38:03,1.037s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:38:03,20-08-2025 00:38:03,0.265s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Firefox 141.0.3,,,20-08-2025 00:38:03,20-08-2025 00:38:03,0.361s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Firefox 141.0.3,Verify multiple checkboxes selection are allowed,,20-08-2025 00:38:03,20-08-2025 00:38:04,0.391s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Firefox 141.0.3,,,20-08-2025 00:38:04,20-08-2025 00:38:04,0.455s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Firefox 141.0.3,,,20-08-2025 00:38:04,20-08-2025 00:38:05,0.340s,PASSED
+"clearText(findTestObject(""Module/Test Form/input_First Name""), STOP_ON_FAILURE)",Firefox 141.0.3,"Verify if “First Name” is removed, the form is not submitted",,20-08-2025 00:38:05,20-08-2025 00:38:05,0.298s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:38:05,20-08-2025 00:38:06,0.660s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Firefox 141.0.3,,,20-08-2025 00:38:06,20-08-2025 00:38:06,0.479s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/radiobutton_Female""), 3)",Firefox 141.0.3,,,20-08-2025 00:38:06,20-08-2025 00:38:06,0.278s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Date of Birth""), 3)",Firefox 141.0.3,,,20-08-2025 00:38:06,20-08-2025 00:38:07,0.248s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Firefox 141.0.3,,,20-08-2025 00:38:07,20-08-2025 00:38:07,0.251s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:38:07,20-08-2025 00:38:07,0.288s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:38:07,20-08-2025 00:38:08,1.048s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number,Firefox 141.0.3,,,20-08-2025 00:38:08,20-08-2025 00:38:28,20.234s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:38:08,20-08-2025 00:38:18,9.519s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Yen"")",Firefox 141.0.3,,,20-08-2025 00:38:18,20-08-2025 00:38:22,3.798s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Ho"")",Firefox 141.0.3,,,20-08-2025 00:38:22,20-08-2025 00:38:22,0.814s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""bn@gmail.12"")",Firefox 141.0.3,,,20-08-2025 00:38:22,20-08-2025 00:38:23,0.821s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Firefox 141.0.3,,,20-08-2025 00:38:23,20-08-2025 00:38:24,0.350s,PASSED
+"verifyTextPresent(""Please enter a valid email"", false)",Firefox 141.0.3,Verify field validation for email ,,20-08-2025 00:38:24,20-08-2025 00:38:24,0.351s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Firefox 141.0.3,,,20-08-2025 00:38:24,20-08-2025 00:38:24,0.336s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""898878883"")",Firefox 141.0.3,,,20-08-2025 00:38:24,20-08-2025 00:38:25,0.808s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:38:25,20-08-2025 00:38:26,0.806s,PASSED
+"verifyTextPresent(""Please enter a valid mobile number"", false)",Firefox 141.0.3,Verify field validation for mobile,,20-08-2025 00:38:26,20-08-2025 00:38:26,0.322s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:38:26,20-08-2025 00:38:27,0.433s,PASSED
+"verifyElementVisible(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:38:27,20-08-2025 00:38:27,0.387s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:38:27,20-08-2025 00:38:27,0.316s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:38:27,20-08-2025 00:38:28,1.088s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC7_Negative_Wrong Date Format,Firefox 141.0.3,,,20-08-2025 00:39:05,20-08-2025 00:39:27,22.086s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:05,20-08-2025 00:39:16,10.414s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""John"")",Firefox 141.0.3,,,20-08-2025 00:39:16,20-08-2025 00:39:20,4.325s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Firefox 141.0.3,,,20-08-2025 00:39:20,20-08-2025 00:39:21,0.777s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt123@gmail.com"")",Firefox 141.0.3,,,20-08-2025 00:39:21,20-08-2025 00:39:22,0.841s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Firefox 141.0.3,,,20-08-2025 00:39:22,20-08-2025 00:39:22,0.436s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Firefox 141.0.3,,,20-08-2025 00:39:22,20-08-2025 00:39:22,0.383s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""98765432"")",Firefox 141.0.3,,,20-08-2025 00:39:22,20-08-2025 00:39:23,0.862s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:39:23,20-08-2025 00:39:24,1.015s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:24,20-08-2025 00:39:24,0.244s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""0d/01/1990"")",Firefox 141.0.3,,,20-08-2025 00:39:24,20-08-2025 00:39:25,0.369s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Firefox 141.0.3,,,20-08-2025 00:39:25,20-08-2025 00:39:25,0.365s,PASSED
+"verifyTextPresent(""Please enter a valid date"", false)",Firefox 141.0.3,Verify field validation for date format,,20-08-2025 00:39:25,20-08-2025 00:39:26,0.549s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:39:26,20-08-2025 00:39:26,0.283s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:26,20-08-2025 00:39:27,1.127s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC8_Negative_Exceed File Size,Firefox 141.0.3,,,20-08-2025 00:39:27,20-08-2025 00:39:56,29.052s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:27,20-08-2025 00:39:37,9.475s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Firefox 141.0.3,,,20-08-2025 00:39:37,20-08-2025 00:39:40,3.324s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""File Validation"")",Firefox 141.0.3,,,20-08-2025 00:39:40,20-08-2025 00:39:41,0.786s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Firefox 141.0.3,,,20-08-2025 00:39:41,20-08-2025 00:39:41,0.351s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Exceed 7 MB"")",Firefox 141.0.3,,,20-08-2025 00:39:41,20-08-2025 00:39:42,0.810s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:42,20-08-2025 00:39:42,0.331s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Firefox 141.0.3,,,20-08-2025 00:39:42,20-08-2025 00:39:43,0.778s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Firefox 141.0.3,,,20-08-2025 00:39:43,20-08-2025 00:39:43,0.341s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Firefox 141.0.3,,,20-08-2025 00:39:43,20-08-2025 00:39:44,0.330s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Firefox 141.0.3,,,20-08-2025 00:39:44,20-08-2025 00:39:45,1.356s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:39:45,20-08-2025 00:39:46,0.357s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:39:46,20-08-2025 00:39:49,3.006s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:49,20-08-2025 00:39:49,0.251s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Firefox 141.0.3,,,20-08-2025 00:39:49,20-08-2025 00:39:49,0.367s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Firefox 141.0.3,,,20-08-2025 00:39:49,20-08-2025 00:39:50,0.408s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Firefox 141.0.3,,,20-08-2025 00:39:50,20-08-2025 00:39:50,0.563s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Firefox 141.0.3,,,20-08-2025 00:39:50,20-08-2025 00:39:50,0.336s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\FileSizeExceed.pdf"")",Firefox 141.0.3,"Verify when a file that exceed 7MB is uploaded, the file is not uploaded",,20-08-2025 00:39:50,20-08-2025 00:39:51,0.270s,PASSED
+"verifyTextPresent(""You have exceeded the file size limit, please upload a file below 7 MB"", false)",Firefox 141.0.3,,,20-08-2025 00:39:51,20-08-2025 00:39:51,0.551s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/DragandDropArea""), 5)",Firefox 141.0.3,,,20-08-2025 00:39:51,20-08-2025 00:39:52,0.253s,PASSED
+"verifyElementNotPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 5)",Firefox 141.0.3,,,20-08-2025 00:39:52,20-08-2025 00:39:52,0.363s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:39:52,20-08-2025 00:39:55,3.004s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:39:55,20-08-2025 00:39:55,0.271s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:55,20-08-2025 00:39:56,1.038s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC9_Negative_File Validation,Firefox 141.0.3,,,20-08-2025 00:39:56,20-08-2025 00:40:36,39.935s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:39:56,20-08-2025 00:40:06,9.460s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Firefox 141.0.3,,,20-08-2025 00:40:06,20-08-2025 00:40:09,3.422s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Alice"")",Firefox 141.0.3,,,20-08-2025 00:40:09,20-08-2025 00:40:10,0.787s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Firefox 141.0.3,,,20-08-2025 00:40:10,20-08-2025 00:40:10,0.332s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Firefox 141.0.3,,,20-08-2025 00:40:10,20-08-2025 00:40:11,0.784s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:40:11,20-08-2025 00:40:11,0.328s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Firefox 141.0.3,,,20-08-2025 00:40:11,20-08-2025 00:40:12,0.792s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Firefox 141.0.3,,,20-08-2025 00:40:12,20-08-2025 00:40:13,0.330s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Firefox 141.0.3,,,20-08-2025 00:40:13,20-08-2025 00:40:13,0.333s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Firefox 141.0.3,,,20-08-2025 00:40:13,20-08-2025 00:40:14,1.389s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:40:14,20-08-2025 00:40:15,0.382s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:40:15,20-08-2025 00:40:18,3.004s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:40:18,20-08-2025 00:40:18,0.246s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Firefox 141.0.3,,,20-08-2025 00:40:18,20-08-2025 00:40:18,0.366s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Firefox 141.0.3,,,20-08-2025 00:40:18,20-08-2025 00:40:19,0.418s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Firefox 141.0.3,,,20-08-2025 00:40:19,20-08-2025 00:40:19,0.461s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\03 This Is The Day.wma"")",Firefox 141.0.3,Verify for invalid file type validation ,,20-08-2025 00:40:19,20-08-2025 00:40:19,0.283s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/errorMsg_wma""), 3)",Firefox 141.0.3,,,20-08-2025 00:40:19,20-08-2025 00:40:20,0.495s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:40:20,20-08-2025 00:40:23,3.005s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\Track01.cda"")",Firefox 141.0.3,Verify for invalid file type validation ,,20-08-2025 00:40:23,20-08-2025 00:40:23,0.260s,PASSED
+"verifyTextPresent(""Your file's extension ending in *.cda is not allowed"", false)",Firefox 141.0.3,,,20-08-2025 00:40:23,20-08-2025 00:40:24,0.532s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:40:24,20-08-2025 00:40:27,3.005s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\TestForm.docx"")",Firefox 141.0.3,Verify for valid file type validation ,,20-08-2025 00:40:27,20-08-2025 00:40:27,0.340s,PASSED
+"verifyTextPresent("".docx"", false)",Firefox 141.0.3,,,20-08-2025 00:40:27,20-08-2025 00:40:28,0.598s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Firefox 141.0.3,,,20-08-2025 00:40:28,20-08-2025 00:40:28,0.251s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:40:28,20-08-2025 00:40:31,3.004s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\image.jpg"")",Firefox 141.0.3,Verify for both valid file type validation ,,20-08-2025 00:40:31,20-08-2025 00:40:31,0.317s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Firefox 141.0.3,,,20-08-2025 00:40:31,20-08-2025 00:40:32,0.462s,PASSED
+delay(3),Firefox 141.0.3,Waits for file to load,,20-08-2025 00:40:32,20-08-2025 00:40:35,3.011s,PASSED
+takeScreenshot(),Firefox 141.0.3,,,20-08-2025 00:40:35,20-08-2025 00:40:35,0.287s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:40:35,20-08-2025 00:40:36,1.143s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields),Firefox 141.0.3,,,20-08-2025 00:41:10,20-08-2025 00:41:33,23.344s,FAILED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:41:10,20-08-2025 00:41:21,10.550s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Brandy"")",Firefox 141.0.3,,,20-08-2025 00:41:21,20-08-2025 00:41:24,3.644s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Firefox 141.0.3,,,20-08-2025 00:41:24,20-08-2025 00:41:25,0.790s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jbtt@gmail.com"")",Firefox 141.0.3,,,20-08-2025 00:41:25,20-08-2025 00:41:26,0.810s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Firefox 141.0.3,,,20-08-2025 00:41:26,20-08-2025 00:41:26,0.333s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Firefox 141.0.3,,,20-08-2025 00:41:26,20-08-2025 00:41:27,0.823s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:41:27,20-08-2025 00:41:27,0.338s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:41:27,20-08-2025 00:41:28,0.241s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Firefox 141.0.3,,,20-08-2025 00:41:28,20-08-2025 00:41:29,0.887s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Firefox 141.0.3,,,20-08-2025 00:41:29,20-08-2025 00:41:29,0.409s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Firefox 141.0.3,,,20-08-2025 00:41:29,20-08-2025 00:41:30,0.559s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:41:30,20-08-2025 00:41:30,0.403s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:41:30,20-08-2025 00:41:33,3.003s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Firefox 141.0.3,,,20-08-2025 00:41:33,20-08-2025 00:41:33,0.445s,FAILED

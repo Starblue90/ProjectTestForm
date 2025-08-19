@@ -1,0 +1,185 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1_Test Suite Scenario,Edge Chromium 139.0.3405.102,,,20-08-2025 00:41:41,20-08-2025 00:45:38,3m - 57.293s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC3_Negative_Empty Fields,Edge Chromium 139.0.3405.102,,,20-08-2025 00:41:41,20-08-2025 00:42:18,37.047s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:41:42,20-08-2025 00:41:52,9.870s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:41:52,20-08-2025 00:41:57,5.029s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:41:57,20-08-2025 00:42:00,3.013s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:00,20-08-2025 00:42:00,0.310s,PASSED
+delay(0),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:00,20-08-2025 00:42:00,0.005s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:00,20-08-2025 00:42:01,0.276s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:01,20-08-2025 00:42:04,3.011s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/textarea_Address(optional)""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:04,20-08-2025 00:42:04,0.300s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:04,20-08-2025 00:42:05,0.605s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_First Name""), ""This field is required"", STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,Verify the error messages are displayed for all the mandate fields,,20-08-2025 00:42:05,20-08-2025 00:42:05,0.401s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Last Name""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:05,20-08-2025 00:42:05,0.269s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Email""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:05,20-08-2025 00:42:06,0.291s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Gender""), ""This field is required"", STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:06,20-08-2025 00:42:06,0.283s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:06,20-08-2025 00:42:06,0.290s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Date of Birth""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:06,20-08-2025 00:42:06,0.288s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Mobile number""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:06,20-08-2025 00:42:07,0.283s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_Hobbies""), ""This field is required"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:07,20-08-2025 00:42:07,0.299s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:07,20-08-2025 00:42:07,0.306s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:07,20-08-2025 00:42:10,3.023s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:10,20-08-2025 00:42:11,0.305s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:11,20-08-2025 00:42:14,3.023s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/checkbox_Hobbies""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:14,20-08-2025 00:42:14,0.292s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:14,20-08-2025 00:42:17,3.020s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:17,20-08-2025 00:42:17,0.302s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/button_Submit now""), 5)",Edge Chromium 139.0.3405.102,Verify the form is not submitted when the fields are not entered,,20-08-2025 00:42:17,20-08-2025 00:42:18,0.275s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:18,20-08-2025 00:42:18,0.465s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:18,20-08-2025 00:42:18,0.429s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:18,20-08-2025 00:42:40,21.142s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:19,20-08-2025 00:42:26,7.223s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Mag"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:26,20-08-2025 00:42:31,4.902s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:31,20-08-2025 00:42:32,1.072s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:32,20-08-2025 00:42:33,0.764s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:33,20-08-2025 00:42:33,0.453s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:33,20-08-2025 00:42:33,0.376s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:33,20-08-2025 00:42:34,0.737s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:34,20-08-2025 00:42:34,0.391s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:34,20-08-2025 00:42:35,0.280s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:35,20-08-2025 00:42:35,0.408s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Edge Chromium 139.0.3405.102,Verify multiple checkboxes selection are allowed,,20-08-2025 00:42:35,20-08-2025 00:42:36,0.445s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:36,20-08-2025 00:42:36,0.629s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:36,20-08-2025 00:42:37,0.355s,PASSED
+"clearText(findTestObject(""Module/Test Form/input_First Name""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,"Verify if “First Name” is removed, the form is not submitted",,20-08-2025 00:42:37,20-08-2025 00:42:37,0.312s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:37,20-08-2025 00:42:38,0.653s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Last Name""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:38,20-08-2025 00:42:38,0.481s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/radiobutton_Female""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:38,20-08-2025 00:42:38,0.247s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Date of Birth""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:38,20-08-2025 00:42:39,0.265s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:39,20-08-2025 00:42:39,0.257s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:39,20-08-2025 00:42:39,0.397s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:39,20-08-2025 00:42:40,0.340s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number,Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:40,20-08-2025 00:42:57,17.130s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:40,20-08-2025 00:42:47,6.886s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Yen"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:47,20-08-2025 00:42:50,3.723s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Ho"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:50,20-08-2025 00:42:51,0.978s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""bn@gmail.12"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:51,20-08-2025 00:42:52,0.774s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:52,20-08-2025 00:42:52,0.439s,PASSED
+"verifyTextPresent(""Please enter a valid email"", false)",Edge Chromium 139.0.3405.102,Verify field validation for email ,,20-08-2025 00:42:52,20-08-2025 00:42:53,0.545s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:53,20-08-2025 00:42:53,0.410s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""898878883"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:53,20-08-2025 00:42:54,0.685s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:54,20-08-2025 00:42:55,0.425s,PASSED
+"verifyTextPresent(""Please enter a valid mobile number"", false)",Edge Chromium 139.0.3405.102,Verify field validation for mobile,,20-08-2025 00:42:55,20-08-2025 00:42:55,0.492s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:55,20-08-2025 00:42:55,0.385s,PASSED
+"verifyElementVisible(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:55,20-08-2025 00:42:56,0.505s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:56,20-08-2025 00:42:56,0.404s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:56,20-08-2025 00:42:57,0.377s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected,Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:57,20-08-2025 00:43:23,26.027s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:42:57,20-08-2025 00:43:04,6.805s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""John"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:04,20-08-2025 00:43:09,5.136s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:09,20-08-2025 00:43:10,0.865s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt123@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:10,20-08-2025 00:43:10,0.739s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:10,20-08-2025 00:43:11,0.503s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""023 45 22"")",Edge Chromium 139.0.3405.102,Verify field validation for invalid mobile,,20-08-2025 00:43:11,20-08-2025 00:43:12,0.759s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:12,20-08-2025 00:43:12,0.430s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:12,20-08-2025 00:43:15,3.007s,PASSED
+"verifyTextPresent(""Please enter a valid mobile number"", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:15,20-08-2025 00:43:15,0.314s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:15,20-08-2025 00:43:16,0.296s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/2026"")",Edge Chromium 139.0.3405.102,Verify for future date field validation,,20-08-2025 00:43:16,20-08-2025 00:43:16,0.396s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:16,20-08-2025 00:43:16,0.419s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/button_Submit now""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:16,20-08-2025 00:43:17,0.514s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:17,20-08-2025 00:43:20,3.004s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:20,20-08-2025 00:43:20,0.414s,PASSED
+"verifyTextPresent(""Only dates today or before are allowed"", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:20,20-08-2025 00:43:21,0.514s,PASSED
+"verifyElementText(findTestObject(""Module/Test Form/errorMsg_None_Hobbies_Check""), ""This field is required"")",Edge Chromium 139.0.3405.102,Verify validation at least 1 Hobby need to be selected,,20-08-2025 00:43:21,20-08-2025 00:43:21,0.266s,PASSED
+"verifyElementVisible(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:21,20-08-2025 00:43:21,0.274s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Mobile number""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:21,20-08-2025 00:43:22,0.266s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/input_Date of Birth""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:22,20-08-2025 00:43:22,0.277s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:22,20-08-2025 00:43:22,0.405s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:22,20-08-2025 00:43:23,0.330s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC7_Negative_Wrong Date Format,Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:23,20-08-2025 00:43:40,17.213s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:23,20-08-2025 00:43:30,6.935s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""John"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:30,20-08-2025 00:43:34,3.994s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:34,20-08-2025 00:43:35,0.944s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt123@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:35,20-08-2025 00:43:35,0.821s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:36,20-08-2025 00:43:36,0.549s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:36,20-08-2025 00:43:36,0.384s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""98765432"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:36,20-08-2025 00:43:37,0.722s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:37,20-08-2025 00:43:38,0.421s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:38,20-08-2025 00:43:38,0.317s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""0d/01/1990"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:38,20-08-2025 00:43:38,0.397s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:38,20-08-2025 00:43:39,0.377s,PASSED
+"verifyTextPresent(""Please enter a valid date"", false)",Edge Chromium 139.0.3405.102,Verify field validation for date format,,20-08-2025 00:43:39,20-08-2025 00:43:39,0.522s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:39,20-08-2025 00:43:40,0.422s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:40,20-08-2025 00:43:40,0.327s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC8_Negative_Exceed File Size,Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:40,20-08-2025 00:44:06,25.862s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:40,20-08-2025 00:43:47,6.829s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:47,20-08-2025 00:43:50,3.170s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""File Validation"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:50,20-08-2025 00:43:51,0.979s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:51,20-08-2025 00:43:52,0.652s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Exceed 7 MB"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:52,20-08-2025 00:43:52,0.723s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:52,20-08-2025 00:43:53,0.373s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:53,20-08-2025 00:43:53,0.713s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:53,20-08-2025 00:43:54,0.475s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:54,20-08-2025 00:43:54,0.418s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:54,20-08-2025 00:43:55,0.682s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:55,20-08-2025 00:43:55,0.412s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:55,20-08-2025 00:43:58,3.008s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:58,20-08-2025 00:43:59,0.316s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:59,20-08-2025 00:43:59,0.385s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Music""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:43:59,20-08-2025 00:44:00,0.400s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:00,20-08-2025 00:44:00,0.592s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:00,20-08-2025 00:44:01,0.354s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\FileSizeExceed.pdf"")",Edge Chromium 139.0.3405.102,"Verify when a file that exceed 7MB is uploaded, the file is not uploaded",,20-08-2025 00:44:01,20-08-2025 00:44:01,0.322s,PASSED
+"verifyTextPresent(""You have exceeded the file size limit, please upload a file below 7 MB"", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:01,20-08-2025 00:44:01,0.512s,PASSED
+"scrollToElement(findTestObject(""Module/Test Form/DragandDropArea""), 5)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:01,20-08-2025 00:44:02,0.280s,PASSED
+"verifyElementNotPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 5)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:02,20-08-2025 00:44:02,0.412s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:02,20-08-2025 00:44:05,3.005s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:05,20-08-2025 00:44:05,0.418s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:05,20-08-2025 00:44:06,0.339s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC9_Negative_File Validation,Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:06,20-08-2025 00:44:44,37.840s,PASSED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:06,20-08-2025 00:44:13,6.951s,PASSED
+"click(findTestObject(""Module/Test Form/input_First Name""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:13,20-08-2025 00:44:18,4.695s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Alice"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:18,20-08-2025 00:44:18,0.720s,PASSED
+"click(findTestObject(""Module/Test Form/input_Last Name""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:18,20-08-2025 00:44:19,0.610s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:19,20-08-2025 00:44:20,0.654s,PASSED
+"click(findTestObject(""Module/Test Form/input_Email""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:20,20-08-2025 00:44:20,0.351s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jt@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:20,20-08-2025 00:44:21,0.685s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Female""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:21,20-08-2025 00:44:21,0.424s,PASSED
+"click(findTestObject(""Module/Test Form/input_Mobile number""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:21,20-08-2025 00:44:21,0.354s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:21,20-08-2025 00:44:22,0.681s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:22,20-08-2025 00:44:22,0.388s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:22,20-08-2025 00:44:25,3.006s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:25,20-08-2025 00:44:26,0.308s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:26,20-08-2025 00:44:26,0.392s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:26,20-08-2025 00:44:27,0.415s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:27,20-08-2025 00:44:27,0.594s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\03 This Is The Day.wma"")",Edge Chromium 139.0.3405.102,Verify for invalid file type validation ,,20-08-2025 00:44:27,20-08-2025 00:44:27,0.300s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/errorMsg_wma""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:27,20-08-2025 00:44:28,0.503s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:28,20-08-2025 00:44:31,3.007s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\Track01.cda"")",Edge Chromium 139.0.3405.102,Verify for invalid file type validation ,,20-08-2025 00:44:31,20-08-2025 00:44:31,0.332s,PASSED
+"verifyTextPresent(""Your file's extension ending in *.cda is not allowed"", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:31,20-08-2025 00:44:32,0.543s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:32,20-08-2025 00:44:35,3.011s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\TestForm.docx"")",Edge Chromium 139.0.3405.102,Verify for valid file type validation ,,20-08-2025 00:44:35,20-08-2025 00:44:35,0.344s,PASSED
+"verifyTextPresent("".docx"", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:35,20-08-2025 00:44:36,0.591s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:36,20-08-2025 00:44:36,0.298s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:36,20-08-2025 00:44:39,3.009s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Module/Test Form/DragandDropArea""), ""C:\Users\Winnie Lim\Downloads\image.jpg"")",Edge Chromium 139.0.3405.102,Verify for both valid file type validation ,,20-08-2025 00:44:39,20-08-2025 00:44:39,0.324s,PASSED
+"verifyElementPresent(findTestObject(""Module/Test Form/buttonRemoveFile""), 3)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:39,20-08-2025 00:44:40,0.487s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,Waits for file to load,,20-08-2025 00:44:40,20-08-2025 00:44:43,3.006s,PASSED
+takeScreenshot(),Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:43,20-08-2025 00:44:43,0.427s,PASSED
+"callTestCase(findTestCase(""Common/TC_Close Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:44:43,20-08-2025 00:44:44,0.344s,PASSED
+,,,,,,,
+Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields),Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:17,20-08-2025 00:45:37,20.568s,FAILED
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:17,20-08-2025 00:45:24,7.151s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), ""Brandy"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:24,20-08-2025 00:45:28,4.246s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), ""Tan"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:28,20-08-2025 00:45:29,0.903s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), ""jbtt@gmail.com"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:29,20-08-2025 00:45:30,0.735s,PASSED
+"check(findTestObject(""Module/Test Form/radiobutton_Male""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:30,20-08-2025 00:45:31,0.481s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), ""91234567"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:31,20-08-2025 00:45:31,0.721s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:31,20-08-2025 00:45:32,0.393s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:32,20-08-2025 00:45:32,0.425s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), ""20/01/1990"")",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:32,20-08-2025 00:45:33,0.422s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Sports""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:33,20-08-2025 00:45:33,0.408s,PASSED
+"click(findTestObject(""Module/Test Form/checkbox_Reading""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:33,20-08-2025 00:45:33,0.587s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:33,20-08-2025 00:45:34,0.452s,PASSED
+delay(3),Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:34,20-08-2025 00:45:37,3.003s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Edge Chromium 139.0.3405.102,,,20-08-2025 00:45:37,20-08-2025 00:45:37,0.519s,FAILED

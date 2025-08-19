@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5_Negative_Attempt submission with Invalid Email and invalid mobile number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a07cc86-b5b1-4223-9e6b-06545a0b36c7</testCaseGuid>
+</TestCaseEntity>

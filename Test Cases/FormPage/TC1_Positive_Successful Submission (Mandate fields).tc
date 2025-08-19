@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_Positive_Successful Submission (Mandate fields)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05244e7a-2da9-4f38-b3f5-7197ddeed388</testCaseGuid>
+</TestCaseEntity>

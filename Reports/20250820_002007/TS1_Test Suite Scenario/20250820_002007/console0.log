@@ -1,0 +1,1145 @@
+2025-08-20 00:20:12.706 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS1_Test Suite Scenario
+2025-08-20 00:20:12.845 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Win Eng
+2025-08-20 00:20:12.847 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = ProjectTestForm
+2025-08-20 00:20:12.848 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Winnie Lim - LAPTOP-B1MJ4OTP
+2025-08-20 00:20:12.849 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-20 00:20:12.850 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.5
+2025-08-20 00:20:12.851 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-08-20 00:20:13.569 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:13.569 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC3_Negative_Empty Fields
+2025-08-20 00:20:14.222 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:20:14.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:14.449 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:20:14.538 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:14.766 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:20:14.870 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:20:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:20:18.196 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e44d2fbcfd1379a742717d772b4f3826
+2025-08-20 00:20:18.199 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:20:18.199 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:20:18.200 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:20:18.213 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:20:18.707 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:20:18.806 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:18.820 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:18.823 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:20:23.883 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:20:23.884 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:23.911 DEBUG testcase.TC3_Negative_Empty Fields       - 2: scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3)
+2025-08-20 00:20:27.583 DEBUG testcase.TC3_Negative_Empty Fields       - 3: delay(3)
+2025-08-20 00:20:30.596 DEBUG testcase.TC3_Negative_Empty Fields       - 4: scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3)
+2025-08-20 00:20:30.972 DEBUG testcase.TC3_Negative_Empty Fields       - 5: delay(0)
+2025-08-20 00:20:30.979 DEBUG testcase.TC3_Negative_Empty Fields       - 6: scrollToElement(findTestObject("Module/Test Form/checkbox_Hobbies"), 3)
+2025-08-20 00:20:31.267 DEBUG testcase.TC3_Negative_Empty Fields       - 7: delay(3)
+2025-08-20 00:20:34.277 DEBUG testcase.TC3_Negative_Empty Fields       - 8: scrollToElement(findTestObject("Module/Test Form/textarea_Address(optional)"), 3)
+2025-08-20 00:20:34.565 DEBUG testcase.TC3_Negative_Empty Fields       - 9: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:20:35.221 DEBUG testcase.TC3_Negative_Empty Fields       - 10: verifyElementText(findTestObject("Module/Test Form/errorMsg_First Name"), "This field is required", STOP_ON_FAILURE)
+2025-08-20 00:20:35.647 DEBUG testcase.TC3_Negative_Empty Fields       - 11: verifyElementText(findTestObject("Module/Test Form/errorMsg_Last Name"), "This field is required")
+2025-08-20 00:20:35.922 DEBUG testcase.TC3_Negative_Empty Fields       - 12: verifyElementText(findTestObject("Module/Test Form/errorMsg_Email"), "This field is required")
+2025-08-20 00:20:36.202 DEBUG testcase.TC3_Negative_Empty Fields       - 13: verifyElementText(findTestObject("Module/Test Form/errorMsg_Gender"), "This field is required", STOP_ON_FAILURE)
+2025-08-20 00:20:36.479 DEBUG testcase.TC3_Negative_Empty Fields       - 14: verifyElementText(findTestObject("Module/Test Form/errorMsg_Mobile number"), "This field is required")
+2025-08-20 00:20:36.778 DEBUG testcase.TC3_Negative_Empty Fields       - 15: verifyElementText(findTestObject("Module/Test Form/errorMsg_Date of Birth"), "This field is required")
+2025-08-20 00:20:37.033 DEBUG testcase.TC3_Negative_Empty Fields       - 16: verifyElementText(findTestObject("Module/Test Form/errorMsg_Mobile number"), "This field is required")
+2025-08-20 00:20:37.304 DEBUG testcase.TC3_Negative_Empty Fields       - 17: verifyElementText(findTestObject("Module/Test Form/errorMsg_Hobbies"), "This field is required")
+2025-08-20 00:20:37.565 DEBUG testcase.TC3_Negative_Empty Fields       - 18: scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3)
+2025-08-20 00:20:37.833 DEBUG testcase.TC3_Negative_Empty Fields       - 19: delay(3)
+2025-08-20 00:20:40.842 DEBUG testcase.TC3_Negative_Empty Fields       - 20: scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3)
+2025-08-20 00:20:41.122 DEBUG testcase.TC3_Negative_Empty Fields       - 21: delay(3)
+2025-08-20 00:20:44.129 DEBUG testcase.TC3_Negative_Empty Fields       - 22: scrollToElement(findTestObject("Module/Test Form/checkbox_Hobbies"), 3)
+2025-08-20 00:20:44.419 DEBUG testcase.TC3_Negative_Empty Fields       - 23: delay(3)
+2025-08-20 00:20:47.425 DEBUG testcase.TC3_Negative_Empty Fields       - 24: scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3)
+2025-08-20 00:20:47.712 DEBUG testcase.TC3_Negative_Empty Fields       - 25: verifyElementPresent(findTestObject("Module/Test Form/button_Submit now"), 5)
+2025-08-20 00:20:47.992 DEBUG testcase.TC3_Negative_Empty Fields       - 26: takeScreenshot()
+2025-08-20 00:20:48.432 DEBUG testcase.TC3_Negative_Empty Fields       - 27: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:20:48.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:48.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:20:48.576 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:20:48.911 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:20:48.911 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:48.913 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC3_Negative_Empty Fields
+2025-08-20 00:20:48.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:48.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)
+2025-08-20 00:20:49.078 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:20:49.167 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:49.168 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:20:49.208 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:49.212 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:20:49.214 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:20:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:20:50.347 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = def99546f5c47a0502524bc571caec4d
+2025-08-20 00:20:50.348 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:20:50.349 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:20:50.350 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:20:50.351 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:20:50.817 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:20:50.880 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:50.882 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:20:50.883 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:20:55.892 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:20:55.892 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:20:55.893 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Mag")
+2025-08-20 00:21:00.065 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:21:00.967 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:21:01.964 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:21:02.522 DEBUG testcase.TC3_Negative_Empty Fields       - 6: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:21:02.929 DEBUG testcase.TC3_Negative_Empty Fields       - 7: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:21:03.683 DEBUG testcase.TC3_Negative_Empty Fields       - 8: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:21:04.099 DEBUG testcase.TC3_Negative_Empty Fields       - 9: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:21:04.512 DEBUG testcase.TC3_Negative_Empty Fields       - 10: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:21:05.002 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:21:05.550 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:21:06.174 DEBUG testcase.TC3_Negative_Empty Fields       - 13: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:21:06.574 DEBUG testcase.TC3_Negative_Empty Fields       - 14: clearText(findTestObject("Module/Test Form/input_First Name"), STOP_ON_FAILURE)
+2025-08-20 00:21:06.885 DEBUG testcase.TC3_Negative_Empty Fields       - 15: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:21:07.562 DEBUG testcase.TC3_Negative_Empty Fields       - 16: scrollToElement(findTestObject("Module/Test Form/input_Last Name"), 3)
+2025-08-20 00:21:08.040 DEBUG testcase.TC3_Negative_Empty Fields       - 17: scrollToElement(findTestObject("Module/Test Form/radiobutton_Female"), 3)
+2025-08-20 00:21:08.316 DEBUG testcase.TC3_Negative_Empty Fields       - 18: scrollToElement(findTestObject("Module/Test Form/input_Date of Birth"), 3)
+2025-08-20 00:21:08.597 DEBUG testcase.TC3_Negative_Empty Fields       - 19: scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3)
+2025-08-20 00:21:08.866 DEBUG testcase.TC3_Negative_Empty Fields       - 20: takeScreenshot()
+2025-08-20 00:21:09.240 DEBUG testcase.TC3_Negative_Empty Fields       - 21: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:09.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:09.301 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:09.316 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:21:09.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:09.584 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:09.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC4_Negative_Attempt submission without First Name (Toggle Gender Radiobutton)
+2025-08-20 00:21:09.590 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:09.590 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number
+2025-08-20 00:21:09.737 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:09.799 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:09.799 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:09.813 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:09.817 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:21:09.819 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:21:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:21:10.916 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e9deccbcadcf58e3b3c2a85e57835d0b
+2025-08-20 00:21:10.917 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:21:10.917 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:21:10.917 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:21:10.919 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:21:11.352 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:21:11.419 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:11.420 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:11.420 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:21:16.426 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:16.426 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:16.428 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Yen")
+2025-08-20 00:21:20.501 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Ho")
+2025-08-20 00:21:21.294 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "bn@gmail.12")
+2025-08-20 00:21:22.083 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:21:22.672 DEBUG testcase.TC3_Negative_Empty Fields       - 6: verifyTextPresent("Please enter a valid email", false)
+2025-08-20 00:21:23.231 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Mobile number"))
+2025-08-20 00:21:23.631 DEBUG testcase.TC3_Negative_Empty Fields       - 8: setText(findTestObject("Module/Test Form/input_Mobile number"), "898878883")
+2025-08-20 00:21:24.326 DEBUG testcase.TC3_Negative_Empty Fields       - 9: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:21:24.729 DEBUG testcase.TC3_Negative_Empty Fields       - 10: verifyTextPresent("Please enter a valid mobile number", false)
+2025-08-20 00:21:25.234 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:21:25.620 DEBUG testcase.TC3_Negative_Empty Fields       - 12: verifyElementVisible(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:21:26.120 DEBUG testcase.TC3_Negative_Empty Fields       - 13: takeScreenshot()
+2025-08-20 00:21:26.516 DEBUG testcase.TC3_Negative_Empty Fields       - 14: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:26.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:26.573 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:26.583 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:21:26.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:26.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:26.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC5_Negative_Attempt submission with Invalid Email and invalid mobile number
+2025-08-20 00:21:26.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:26.926 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected
+2025-08-20 00:21:27.039 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:27.096 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:27.097 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:27.109 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:27.111 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:21:27.114 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:21:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:21:28.161 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6ea5498d91930ff0a1f129c9d26343a4
+2025-08-20 00:21:28.162 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:21:28.162 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:21:28.163 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:21:28.163 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:21:28.463 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:21:28.549 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:28.553 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:28.557 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:21:33.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:33.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:33.569 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "John")
+2025-08-20 00:21:37.689 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:21:38.658 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt123@gmail.com")
+2025-08-20 00:21:39.477 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:21:39.943 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "023 45 22")
+2025-08-20 00:21:40.698 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:21:41.139 DEBUG testcase.TC3_Negative_Empty Fields       - 8: delay(3)
+2025-08-20 00:21:44.145 DEBUG testcase.TC3_Negative_Empty Fields       - 9: verifyTextPresent("Please enter a valid mobile number", false)
+2025-08-20 00:21:44.445 DEBUG testcase.TC3_Negative_Empty Fields       - 10: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:21:44.723 DEBUG testcase.TC3_Negative_Empty Fields       - 11: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/2026")
+2025-08-20 00:21:45.118 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:21:45.660 DEBUG testcase.TC3_Negative_Empty Fields       - 13: scrollToElement(findTestObject("Module/Test Form/button_Submit now"), 3)
+2025-08-20 00:21:46.153 DEBUG testcase.TC3_Negative_Empty Fields       - 14: delay(3)
+2025-08-20 00:21:49.157 DEBUG testcase.TC3_Negative_Empty Fields       - 15: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:21:49.579 DEBUG testcase.TC3_Negative_Empty Fields       - 16: verifyTextPresent("Only dates today or before are allowed", false)
+2025-08-20 00:21:50.108 DEBUG testcase.TC3_Negative_Empty Fields       - 17: verifyElementText(findTestObject("Module/Test Form/errorMsg_None_Hobbies_Check"), "This field is required")
+2025-08-20 00:21:50.359 DEBUG testcase.TC3_Negative_Empty Fields       - 18: verifyElementVisible(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:21:50.635 DEBUG testcase.TC3_Negative_Empty Fields       - 19: scrollToElement(findTestObject("Module/Test Form/input_Mobile number"), 3)
+2025-08-20 00:21:50.896 DEBUG testcase.TC3_Negative_Empty Fields       - 20: scrollToElement(findTestObject("Module/Test Form/input_Date of Birth"), 3)
+2025-08-20 00:21:51.175 DEBUG testcase.TC3_Negative_Empty Fields       - 21: takeScreenshot()
+2025-08-20 00:21:51.591 DEBUG testcase.TC3_Negative_Empty Fields       - 22: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:51.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:51.649 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:51.656 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:21:51.954 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:21:51.954 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:51.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC6_Negative_Invalid Mobile Number Format Future Date with No Hobbies selected
+2025-08-20 00:21:51.965 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:51.965 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC7_Negative_Wrong Date Format
+2025-08-20 00:21:52.084 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:21:52.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:52.146 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:52.155 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:52.159 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:21:52.164 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:21:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:21:53.235 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d7c49b9c125fcf171e7e810b659f54c1
+2025-08-20 00:21:53.236 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:21:53.236 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:21:53.237 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:21:53.237 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:21:53.665 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:21:53.723 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:53.724 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:21:53.725 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:21:58.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:21:58.733 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:21:58.735 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "John")
+2025-08-20 00:22:02.861 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:22:03.775 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt123@gmail.com")
+2025-08-20 00:22:04.544 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:22:05.143 DEBUG testcase.TC3_Negative_Empty Fields       - 6: click(findTestObject("Module/Test Form/input_Mobile number"))
+2025-08-20 00:22:05.544 DEBUG testcase.TC3_Negative_Empty Fields       - 7: setText(findTestObject("Module/Test Form/input_Mobile number"), "98765432")
+2025-08-20 00:22:06.243 DEBUG testcase.TC3_Negative_Empty Fields       - 8: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:22:06.751 DEBUG testcase.TC3_Negative_Empty Fields       - 9: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:22:07.063 DEBUG testcase.TC3_Negative_Empty Fields       - 10: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "0d/01/1990")
+2025-08-20 00:22:07.484 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:22:07.884 DEBUG testcase.TC3_Negative_Empty Fields       - 12: verifyTextPresent("Please enter a valid date", false)
+2025-08-20 00:22:08.536 DEBUG testcase.TC3_Negative_Empty Fields       - 13: takeScreenshot()
+2025-08-20 00:22:08.936 DEBUG testcase.TC3_Negative_Empty Fields       - 14: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:22:08.995 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:08.995 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:22:09.007 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:22:09.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:22:09.299 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:09.300 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC7_Negative_Wrong Date Format
+2025-08-20 00:22:09.304 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:09.304 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC8_Negative_Exceed File Size
+2025-08-20 00:22:09.429 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:22:09.495 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:09.496 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:22:09.526 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:09.530 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:22:09.532 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:22:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:22:10.596 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f01dedaad69f379931d7b5158a7ed70a
+2025-08-20 00:22:10.597 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:22:10.597 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:22:10.599 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:22:10.600 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:22:10.894 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:22:10.961 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:10.965 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:10.966 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:22:15.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:22:15.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:15.973 DEBUG testcase.TC3_Negative_Empty Fields       - 2: click(findTestObject("Module/Test Form/input_First Name"))
+2025-08-20 00:22:19.409 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_First Name"), "File Validation")
+2025-08-20 00:22:20.373 DEBUG testcase.TC3_Negative_Empty Fields       - 4: click(findTestObject("Module/Test Form/input_Last Name"))
+2025-08-20 00:22:20.874 DEBUG testcase.TC3_Negative_Empty Fields       - 5: setText(findTestObject("Module/Test Form/input_Last Name"), "Exceed 7 MB")
+2025-08-20 00:22:21.591 DEBUG testcase.TC3_Negative_Empty Fields       - 6: click(findTestObject("Module/Test Form/input_Email"), STOP_ON_FAILURE)
+2025-08-20 00:22:21.993 DEBUG testcase.TC3_Negative_Empty Fields       - 7: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:22:22.675 DEBUG testcase.TC3_Negative_Empty Fields       - 8: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:22:23.143 DEBUG testcase.TC3_Negative_Empty Fields       - 9: click(findTestObject("Module/Test Form/input_Mobile number"))
+2025-08-20 00:22:23.525 DEBUG testcase.TC3_Negative_Empty Fields       - 10: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:22:24.222 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:22:24.608 DEBUG testcase.TC3_Negative_Empty Fields       - 12: delay(3)
+2025-08-20 00:22:27.614 DEBUG testcase.TC3_Negative_Empty Fields       - 13: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:22:27.916 DEBUG testcase.TC3_Negative_Empty Fields       - 14: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:22:28.323 DEBUG testcase.TC3_Negative_Empty Fields       - 15: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:22:28.738 DEBUG testcase.TC3_Negative_Empty Fields       - 16: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:22:29.334 DEBUG testcase.TC3_Negative_Empty Fields       - 17: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:22:29.738 DEBUG testcase.TC3_Negative_Empty Fields       - 18: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\FileSizeExceed.pdf")
+2025-08-20 00:22:30.069 DEBUG testcase.TC3_Negative_Empty Fields       - 19: verifyTextPresent("You have exceeded the file size limit, please upload a file below 7 MB", false)
+2025-08-20 00:22:30.601 DEBUG testcase.TC3_Negative_Empty Fields       - 20: scrollToElement(findTestObject("Module/Test Form/DragandDropArea"), 5)
+2025-08-20 00:22:30.845 DEBUG testcase.TC3_Negative_Empty Fields       - 21: verifyElementNotPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 5)
+2025-08-20 00:22:31.251 DEBUG testcase.TC3_Negative_Empty Fields       - 22: delay(3)
+2025-08-20 00:22:34.255 DEBUG testcase.TC3_Negative_Empty Fields       - 23: takeScreenshot()
+2025-08-20 00:22:34.617 DEBUG testcase.TC3_Negative_Empty Fields       - 24: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:22:34.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:34.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:22:34.682 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:22:34.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:22:34.947 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:34.949 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC8_Negative_Exceed File Size
+2025-08-20 00:22:34.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:34.953 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC9_Negative_File Validation
+2025-08-20 00:22:35.058 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:22:35.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:35.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:22:35.137 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:35.141 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:22:35.142 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:22:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:22:36.191 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2b3cf89e4192eca0e49e0319cdfd1e19
+2025-08-20 00:22:36.192 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:22:36.192 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:22:36.193 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:22:36.193 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:22:36.629 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:22:36.691 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:36.692 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:22:36.692 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:22:41.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:22:41.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:22:41.703 DEBUG testcase.TC3_Negative_Empty Fields       - 2: click(findTestObject("Module/Test Form/input_First Name"))
+2025-08-20 00:22:45.388 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_First Name"), "Alice")
+2025-08-20 00:22:46.113 DEBUG testcase.TC3_Negative_Empty Fields       - 4: click(findTestObject("Module/Test Form/input_Last Name"))
+2025-08-20 00:22:46.790 DEBUG testcase.TC3_Negative_Empty Fields       - 5: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:22:47.486 DEBUG testcase.TC3_Negative_Empty Fields       - 6: click(findTestObject("Module/Test Form/input_Email"), STOP_ON_FAILURE)
+2025-08-20 00:22:47.889 DEBUG testcase.TC3_Negative_Empty Fields       - 7: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:22:48.608 DEBUG testcase.TC3_Negative_Empty Fields       - 8: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:22:49.088 DEBUG testcase.TC3_Negative_Empty Fields       - 9: click(findTestObject("Module/Test Form/input_Mobile number"))
+2025-08-20 00:22:49.561 DEBUG testcase.TC3_Negative_Empty Fields       - 10: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:22:50.250 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:22:50.671 DEBUG testcase.TC3_Negative_Empty Fields       - 12: delay(3)
+2025-08-20 00:22:53.675 DEBUG testcase.TC3_Negative_Empty Fields       - 13: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:22:53.958 DEBUG testcase.TC3_Negative_Empty Fields       - 14: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:22:54.402 DEBUG testcase.TC3_Negative_Empty Fields       - 15: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:22:54.820 DEBUG testcase.TC3_Negative_Empty Fields       - 16: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:22:55.447 DEBUG testcase.TC3_Negative_Empty Fields       - 17: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\03 This Is The Day.wma")
+2025-08-20 00:22:55.753 DEBUG testcase.TC3_Negative_Empty Fields       - 18: verifyElementPresent(findTestObject("Module/Test Form/errorMsg_wma"), 3)
+2025-08-20 00:22:56.232 DEBUG testcase.TC3_Negative_Empty Fields       - 19: delay(3)
+2025-08-20 00:22:59.245 DEBUG testcase.TC3_Negative_Empty Fields       - 20: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\Track01.cda")
+2025-08-20 00:22:59.547 DEBUG testcase.TC3_Negative_Empty Fields       - 21: verifyTextPresent("Your file's extension ending in *.cda is not allowed", false)
+2025-08-20 00:23:00.073 DEBUG testcase.TC3_Negative_Empty Fields       - 22: delay(3)
+2025-08-20 00:23:03.091 DEBUG testcase.TC3_Negative_Empty Fields       - 23: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\TestForm.docx")
+2025-08-20 00:23:03.396 DEBUG testcase.TC3_Negative_Empty Fields       - 24: verifyTextPresent(".docx", false)
+2025-08-20 00:23:03.962 DEBUG testcase.TC3_Negative_Empty Fields       - 25: verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3)
+2025-08-20 00:23:04.241 DEBUG testcase.TC3_Negative_Empty Fields       - 26: delay(3)
+2025-08-20 00:23:07.256 DEBUG testcase.TC3_Negative_Empty Fields       - 27: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\image.jpg")
+2025-08-20 00:23:07.560 DEBUG testcase.TC3_Negative_Empty Fields       - 28: verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3)
+2025-08-20 00:23:08.033 DEBUG testcase.TC3_Negative_Empty Fields       - 29: delay(3)
+2025-08-20 00:23:11.047 DEBUG testcase.TC3_Negative_Empty Fields       - 30: takeScreenshot()
+2025-08-20 00:23:11.442 DEBUG testcase.TC3_Negative_Empty Fields       - 31: callTestCase(findTestCase("Common/TC_Close Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:23:11.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:11.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:23:11.526 DEBUG testcase.TC_Close Browser                - 1: closeBrowser()
+2025-08-20 00:23:11.824 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Close Browser
+2025-08-20 00:23:11.825 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:11.826 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC9_Negative_File Validation
+2025-08-20 00:23:11.830 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:11.830 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:23:11.976 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:23:12.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:12.044 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:23:12.056 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:12.060 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:23:12.063 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:23:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:23:13.077 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 07bf95ab285cf7556cee6d3b2a5d5703
+2025-08-20 00:23:13.077 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:23:13.078 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:23:13.078 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:23:13.079 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:23:13.405 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:23:13.464 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:13.472 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:13.474 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:23:18.487 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:23:18.487 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:18.490 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Mag")
+2025-08-20 00:23:22.426 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:23:23.320 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:23:24.169 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:23:24.725 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:23:25.493 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:23:25.976 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:23:26.319 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:23:26.743 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:23:27.194 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:23:27.800 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:23:28.169 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:23:31.172 DEBUG testcase.TC3_Negative_Empty Fields       - 14: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:23:31.556 DEBUG testcase.TC3_Negative_Empty Fields       - 15: delay(3)
+2025-08-20 00:23:34.562 DEBUG testcase.TC3_Negative_Empty Fields       - 16: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:23:34.951 DEBUG testcase.TC3_Negative_Empty Fields       - 17: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\TestForm.pdf")
+2025-08-20 00:23:35.343 DEBUG testcase.TC3_Negative_Empty Fields       - 18: verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3)
+2025-08-20 00:23:35.826 DEBUG testcase.TC3_Negative_Empty Fields       - 19: verifyTextPresent(".pdf", false)
+2025-08-20 00:23:36.120 DEBUG testcase.TC3_Negative_Empty Fields       - 20: click(findTestObject("Module/Test Form/dropdown_SelectLocation"))
+2025-08-20 00:23:36.532 DEBUG testcase.TC3_Negative_Empty Fields       - 21: setText(findTestObject("Module/Test Form/input_Location(optional)"), "West", STOP_ON_FAILURE)
+2025-08-20 00:23:37.655 DEBUG testcase.TC3_Negative_Empty Fields       - 22: sendKeys(findTestObject("Module/Test Form/input_Location(optional)"), Keys.chord(ENTER))
+2025-08-20 00:23:38.414 DEBUG testcase.TC3_Negative_Empty Fields       - 23: click(findTestObject("Module/Test Form/textarea_Address(optional)"))
+2025-08-20 00:23:39.225 DEBUG testcase.TC3_Negative_Empty Fields       - 24: setText(findTestObject("Module/Test Form/textarea_Address(optional)"), "100 Pasir Panjang #07-10 Singapore 580124")
+2025-08-20 00:23:40.031 DEBUG testcase.TC3_Negative_Empty Fields       - 25: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:23:40.638 DEBUG testcase.TC3_Negative_Empty Fields       - 26: delay(3)
+2025-08-20 00:23:43.643 DEBUG testcase.TC3_Negative_Empty Fields       - 27: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:23:44.004 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:23:44.198 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-08-20 00:23:44.200 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC2_Positive_Successful Submission (All fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-08-20 00:23:44.204 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:23:44.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:44.208 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:23:44.226 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:23:44.288 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:44.288 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:23:44.305 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:44.308 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-08-20 00:23:44.671 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:23:44.674 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:23:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:23:45.748 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3069c8ecb0573f3b62561288f5fc3ccd
+2025-08-20 00:23:45.748 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:23:45.749 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:23:45.749 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:23:45.749 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:23:46.086 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:23:46.153 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:46.156 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:23:46.160 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:23:51.166 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:23:51.166 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:23:51.167 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Mag")
+2025-08-20 00:23:55.544 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:23:56.422 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:23:57.189 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:23:57.635 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:23:58.416 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:23:58.932 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:23:59.296 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:23:59.703 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:24:00.129 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:24:00.744 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:24:01.101 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:24:04.104 DEBUG testcase.TC3_Negative_Empty Fields       - 14: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:24:04.474 DEBUG testcase.TC3_Negative_Empty Fields       - 15: delay(3)
+2025-08-20 00:24:07.477 DEBUG testcase.TC3_Negative_Empty Fields       - 16: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:24:07.882 DEBUG testcase.TC3_Negative_Empty Fields       - 17: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\TestForm.pdf")
+2025-08-20 00:24:08.334 DEBUG testcase.TC3_Negative_Empty Fields       - 18: verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3)
+2025-08-20 00:24:08.841 DEBUG testcase.TC3_Negative_Empty Fields       - 19: verifyTextPresent(".pdf", false)
+2025-08-20 00:24:09.151 DEBUG testcase.TC3_Negative_Empty Fields       - 20: click(findTestObject("Module/Test Form/dropdown_SelectLocation"))
+2025-08-20 00:24:09.553 DEBUG testcase.TC3_Negative_Empty Fields       - 21: setText(findTestObject("Module/Test Form/input_Location(optional)"), "West", STOP_ON_FAILURE)
+2025-08-20 00:24:10.756 DEBUG testcase.TC3_Negative_Empty Fields       - 22: sendKeys(findTestObject("Module/Test Form/input_Location(optional)"), Keys.chord(ENTER))
+2025-08-20 00:24:11.640 DEBUG testcase.TC3_Negative_Empty Fields       - 23: click(findTestObject("Module/Test Form/textarea_Address(optional)"))
+2025-08-20 00:24:12.469 DEBUG testcase.TC3_Negative_Empty Fields       - 24: setText(findTestObject("Module/Test Form/textarea_Address(optional)"), "100 Pasir Panjang #07-10 Singapore 580124")
+2025-08-20 00:24:13.318 DEBUG testcase.TC3_Negative_Empty Fields       - 25: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:24:13.886 DEBUG testcase.TC3_Negative_Empty Fields       - 26: delay(3)
+2025-08-20 00:24:16.891 DEBUG testcase.TC3_Negative_Empty Fields       - 27: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:24:17.200 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:24:17.427 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2025-08-20 00:24:17.431 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC2_Positive_Successful Submission (All fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-08-20 00:24:17.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:24:17.438 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:17.438 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:24:17.454 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:24:17.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:17.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:24:17.525 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:17.528 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-08-20 00:24:17.848 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:24:17.849 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:24:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:24:18.952 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c2fab2646c2dd0602b8b158f1880f3fb
+2025-08-20 00:24:18.952 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:24:18.953 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:24:18.953 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:24:18.954 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:24:19.289 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:24:19.424 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:19.427 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:19.429 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:24:24.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:24:24.435 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:24.436 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Mag")
+2025-08-20 00:24:28.214 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:24:29.163 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jt@gmail.com")
+2025-08-20 00:24:30.018 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Female"))
+2025-08-20 00:24:30.562 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:24:31.317 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:24:31.725 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:24:32.000 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:24:32.391 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:24:32.820 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:24:33.478 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:24:33.840 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:24:36.844 DEBUG testcase.TC3_Negative_Empty Fields       - 14: click(findTestObject("Module/Test Form/checkbox_Music"))
+2025-08-20 00:24:37.247 DEBUG testcase.TC3_Negative_Empty Fields       - 15: delay(3)
+2025-08-20 00:24:40.251 DEBUG testcase.TC3_Negative_Empty Fields       - 16: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:24:40.637 DEBUG testcase.TC3_Negative_Empty Fields       - 17: uploadFileWithDragAndDrop(findTestObject("Module/Test Form/DragandDropArea"), "C:\Users\Winnie Lim\Downloads\TestForm.pdf")
+2025-08-20 00:24:40.961 DEBUG testcase.TC3_Negative_Empty Fields       - 18: verifyElementPresent(findTestObject("Module/Test Form/buttonRemoveFile"), 3)
+2025-08-20 00:24:41.439 DEBUG testcase.TC3_Negative_Empty Fields       - 19: verifyTextPresent(".pdf", false)
+2025-08-20 00:24:41.767 DEBUG testcase.TC3_Negative_Empty Fields       - 20: click(findTestObject("Module/Test Form/dropdown_SelectLocation"))
+2025-08-20 00:24:42.187 DEBUG testcase.TC3_Negative_Empty Fields       - 21: setText(findTestObject("Module/Test Form/input_Location(optional)"), "West", STOP_ON_FAILURE)
+2025-08-20 00:24:43.315 DEBUG testcase.TC3_Negative_Empty Fields       - 22: sendKeys(findTestObject("Module/Test Form/input_Location(optional)"), Keys.chord(ENTER))
+2025-08-20 00:24:44.101 DEBUG testcase.TC3_Negative_Empty Fields       - 23: click(findTestObject("Module/Test Form/textarea_Address(optional)"))
+2025-08-20 00:24:44.913 DEBUG testcase.TC3_Negative_Empty Fields       - 24: setText(findTestObject("Module/Test Form/textarea_Address(optional)"), "100 Pasir Panjang #07-10 Singapore 580124")
+2025-08-20 00:24:45.716 DEBUG testcase.TC3_Negative_Empty Fields       - 25: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:24:46.240 DEBUG testcase.TC3_Negative_Empty Fields       - 26: delay(3)
+2025-08-20 00:24:49.243 DEBUG testcase.TC3_Negative_Empty Fields       - 27: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:24:49.570 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:24:49.786 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+)
+2025-08-20 00:24:49.789 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC2_Positive_Successful Submission (All fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC2_Positive_Successful Submission (All fields).run(TC2_Positive_Successful Submission (All fields):74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-08-20 00:24:49.792 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC2_Positive_Successful Submission (All fields)
+2025-08-20 00:24:49.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:49.796 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:24:49.931 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:24:49.988 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:49.989 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:24:49.997 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:50.001 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-08-20 00:24:50.360 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:24:50.361 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:24:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:24:51.506 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d0b154fa6def2c41fba7e2372a98c15f
+2025-08-20 00:24:51.507 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:24:51.507 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:24:51.507 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:24:51.508 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:24:51.937 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:24:51.984 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:51.986 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:24:51.987 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:24:56.992 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:24:56.993 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:24:56.994 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Brandy")
+2025-08-20 00:25:01.127 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:25:02.185 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jbtt@gmail.com")
+2025-08-20 00:25:03.089 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:25:03.594 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:25:04.304 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:25:04.828 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:25:05.193 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:25:05.586 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:25:06.023 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:25:06.642 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:25:07.120 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:25:10.125 DEBUG testcase.TC3_Negative_Empty Fields       - 14: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:25:10.513 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:25:10.703 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-08-20 00:25:10.705 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-08-20 00:25:10.707 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:25:10.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:10.712 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:25:10.724 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:25:10.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:10.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:25:10.791 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:10.795 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-08-20 00:25:11.111 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:25:11.113 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:25:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:25:12.166 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9702f5d6a73693c16f51f84693386620
+2025-08-20 00:25:12.167 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:25:12.167 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:25:12.167 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:25:12.168 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:25:12.613 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:25:12.690 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:12.690 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:12.691 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:25:17.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:25:17.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:17.700 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Brandy")
+2025-08-20 00:25:21.354 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:25:22.221 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jbtt@gmail.com")
+2025-08-20 00:25:23.005 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:25:23.566 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:25:24.303 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:25:24.718 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:25:24.993 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:25:25.384 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:25:25.799 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:25:26.391 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:25:26.839 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:25:29.844 DEBUG testcase.TC3_Negative_Empty Fields       - 14: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:25:30.291 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:25:30.621 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2025-08-20 00:25:30.625 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-08-20 00:25:30.628 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:25:30.632 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:30.632 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:25:30.655 DEBUG testcase.TC3_Negative_Empty Fields       - 1: callTestCase(findTestCase("Common/TC_Launch Browser"), [:], STOP_ON_FAILURE)
+2025-08-20 00:25:30.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:30.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:25:30.734 DEBUG testcase.TC_Launch Browser               - 1: openBrowser("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:30.742 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-08-20 00:25:31.162 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-20 00:25:31.164 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 20, 2025 12:25:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-20 00:25:32.546 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7784850fa482f1ed454004e8ffd106d2
+2025-08-20 00:25:32.546 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-20 00:25:32.547 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-20 00:25:32.547 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-20 00:25:32.548 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-20 00:25:33.090 DEBUG testcase.TC_Launch Browser               - 2: maximizeWindow()
+2025-08-20 00:25:33.179 DEBUG testcase.TC_Launch Browser               - 3: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:33.180 WARN  testcase.TC_Launch Browser               - SKIPPED NOT_RUN: navigateToUrl("http://go.gov.sg/gt-qe")
+2025-08-20 00:25:33.181 DEBUG testcase.TC_Launch Browser               - 4: delay(5)
+2025-08-20 00:25:38.185 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Common/TC_Launch Browser
+2025-08-20 00:25:38.186 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-20 00:25:38.187 DEBUG testcase.TC3_Negative_Empty Fields       - 2: setText(findTestObject("Module/Test Form/input_First Name"), "Brandy")
+2025-08-20 00:25:42.164 DEBUG testcase.TC3_Negative_Empty Fields       - 3: setText(findTestObject("Module/Test Form/input_Last Name"), "Tan")
+2025-08-20 00:25:43.135 DEBUG testcase.TC3_Negative_Empty Fields       - 4: setText(findTestObject("Module/Test Form/input_Email"), "jbtt@gmail.com")
+2025-08-20 00:25:43.958 DEBUG testcase.TC3_Negative_Empty Fields       - 5: check(findTestObject("Module/Test Form/radiobutton_Male"))
+2025-08-20 00:25:44.473 DEBUG testcase.TC3_Negative_Empty Fields       - 6: setText(findTestObject("Module/Test Form/input_Mobile number"), "91234567")
+2025-08-20 00:25:45.208 DEBUG testcase.TC3_Negative_Empty Fields       - 7: click(findTestObject("Module/Test Form/input_Date of Birth"))
+2025-08-20 00:25:45.640 DEBUG testcase.TC3_Negative_Empty Fields       - 8: focus(findTestObject("Module/Test Form/input_Date of Birth"), STOP_ON_FAILURE)
+2025-08-20 00:25:45.907 DEBUG testcase.TC3_Negative_Empty Fields       - 9: sendKeys(findTestObject("Module/Test Form/input_Date of Birth"), "20/01/1990")
+2025-08-20 00:25:46.316 DEBUG testcase.TC3_Negative_Empty Fields       - 10: click(findTestObject("Module/Test Form/checkbox_Sports"))
+2025-08-20 00:25:46.857 DEBUG testcase.TC3_Negative_Empty Fields       - 11: click(findTestObject("Module/Test Form/checkbox_Reading"))
+2025-08-20 00:25:47.477 DEBUG testcase.TC3_Negative_Empty Fields       - 12: click(findTestObject("Module/Test Form/button_Submit now"))
+2025-08-20 00:25:47.937 DEBUG testcase.TC3_Negative_Empty Fields       - 13: delay(3)
+2025-08-20 00:25:50.941 DEBUG testcase.TC3_Negative_Empty Fields       - 14: verifyTextPresent("Thank you for filling out the form.", false)
+2025-08-20 00:25:51.345 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Text 'Thank you for filling out the form.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-08-20 00:25:51.635 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to verify text 'Thank you for filling out the form.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+)
+2025-08-20 00:25:51.637 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Thank you for filling out the form.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1799)
+	at TC1_Positive_Successful Submission (Mandate fields).run(TC1_Positive_Successful Submission (Mandate fields):51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1755620407169.run(TempTestSuite1755620407169.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Thank you for filling out the form.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-08-20 00:25:51.640 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/FormPage/TC1_Positive_Successful Submission (Mandate fields)
+2025-08-20 00:25:52.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-20 00:25:52.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS1_Test Suite Scenario
+2025-08-20 00:25:52.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

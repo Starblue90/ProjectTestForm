@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2_Data Driven Suite,Firefox 141.0.3,,,20-08-2025 00:47:12,20-08-2025 00:48:46,1m - 34.515s,FAILED
+,,,,,,,
+Test Cases/FormPage/TC10_DataDriven_Successful Submission,Firefox 141.0.3,,,20-08-2025 00:48:15,20-08-2025 00:48:45,29.812s,FAILED
+"DATA BINDING - {""DateOfBirth"":""23011980"",""MobileNumber"":""89876543"",""Email"":""amy@hotmail.com"",""Address"":""345 Bukit Timah Singapore"",""FirstName"":""Danie"",""Hobby"":""Reading"",""LastName"":""Amy"",""Gender"":""Male"",""Location"":""West""}",,,,,,,
+"callTestCase(findTestCase(""Common/TC_Launch Browser""), [:], STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:48:15,20-08-2025 00:48:26,10.718s,PASSED
+"setText(findTestObject(""Module/Test Form/input_First Name""), FirstName)",Firefox 141.0.3,,,20-08-2025 00:48:26,20-08-2025 00:48:30,3.898s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Last Name""), LastName)",Firefox 141.0.3,,,20-08-2025 00:48:30,20-08-2025 00:48:31,0.851s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Email""), Email)",Firefox 141.0.3,,,20-08-2025 00:48:31,20-08-2025 00:48:32,0.839s,PASSED
+"if (Gender == ""Male"")",Firefox 141.0.3,,,20-08-2025 00:48:32,20-08-2025 00:48:32,0.342s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Mobile number""), MobileNumber)",Firefox 141.0.3,,,20-08-2025 00:48:32,20-08-2025 00:48:33,0.841s,PASSED
+"click(findTestObject(""Module/Test Form/input_Date of Birth""))",Firefox 141.0.3,,,20-08-2025 00:48:33,20-08-2025 00:48:33,0.351s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:48:33,20-08-2025 00:48:36,3.006s,PASSED
+"focus(findTestObject(""Module/Test Form/input_Date of Birth""), STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:48:36,20-08-2025 00:48:36,0.247s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Date of Birth""), DateOfBirth)",Firefox 141.0.3,,,20-08-2025 00:48:36,20-08-2025 00:48:37,0.363s,PASSED
+"if (Hobby == ""Sport"")",Firefox 141.0.3,,,20-08-2025 00:48:37,20-08-2025 00:48:37,0.001s,PASSED
+"else if (Hobby == ""Music"")",Firefox 141.0.3,,,20-08-2025 00:48:37,20-08-2025 00:48:37,0.002s,PASSED
+else,Firefox 141.0.3,,,20-08-2025 00:48:37,20-08-2025 00:48:37,0.394s,PASSED
+"click(findTestObject(""Module/Test Form/dropdown_SelectLocation""))",Firefox 141.0.3,,,20-08-2025 00:48:37,20-08-2025 00:48:38,0.576s,PASSED
+"setText(findTestObject(""Module/Test Form/input_Location(optional)""), Location, STOP_ON_FAILURE)",Firefox 141.0.3,,,20-08-2025 00:48:38,20-08-2025 00:48:39,0.959s,PASSED
+delay(3),Firefox 141.0.3,,,20-08-2025 00:48:39,20-08-2025 00:48:42,3.005s,PASSED
+"sendKeys(findTestObject(""Module/Test Form/input_Location(optional)""), Keys.chord(ENTER))",Firefox 141.0.3,,,20-08-2025 00:48:42,20-08-2025 00:48:42,0.319s,PASSED
+"setText(findTestObject(""Module/Test Form/textarea_Address(optional)""), Address)",Firefox 141.0.3,,,20-08-2025 00:48:42,20-08-2025 00:48:44,1.625s,PASSED
+"click(findTestObject(""Module/Test Form/button_Submit now""))",Firefox 141.0.3,,,20-08-2025 00:48:44,20-08-2025 00:48:44,0.487s,PASSED
+"verifyTextPresent(""Thank you for filling out the form."", false)",Firefox 141.0.3,,,20-08-2025 00:48:44,20-08-2025 00:48:45,0.947s,FAILED
