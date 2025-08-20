@@ -25,8 +25,9 @@
 Notes:
 1. For "TC2_Positive_Successful Submission (All fields)", "TC8_Negative_Exceed File Size","TC9_Negative_File Validation", please replace the file path directory during the execution for the test cases and select the required test file from GitHub main.
 
-2. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub. Please use your own file and rename the file.
+2. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub. Please use your own file or use "POC Files.pdf" (this file is uploaded in GitHub main) and rename the file.
 3. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from GitHub main.
+4. Please read "Readme for Testcase.pdf" for the testcases overview. 
 
 # Test Suites
 There are 3 Test Suites to execute.
