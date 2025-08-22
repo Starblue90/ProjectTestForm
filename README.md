@@ -27,7 +27,17 @@ Notes:
 
 2. For "TC8_Negative_Exceed File Size", the "FileSizeExceed.pdf" is too huge to upload to GitHub. Please use your own file or use "POC Files.pdf" (this file is uploaded in GitHub main) and rename the file.
 3. For "TC9_Negative_File Validation", select the required file "03 This Is The Day.wma", "Track01.cda", "TestForm.docx", "image.jpg" from GitHub main.
-4. Please read "Readme for Testcase.pdf" for the testcases overview. 
+4. Please read "Readme for Testcase.pdf" for the testcases overview.
+5. For "TC10_DataDriven_Successful Submission", please upload “test_datadriven.xlsx” from GitHub main to "Data Files>FormDataDriven>Data Driven" to the required directory as shown below.
+
+<img width="940" height="263" alt="image" src="https://github.com/user-attachments/assets/dffd17e2-e335-498d-9740-97bedbca54d6" />
+
+
+
+Ensure the data binding is displayed as shown below in "TestCases>FormPage>TC10_DataDriven_Successful Submission" 
+<img width="940" height="324" alt="image" src="https://github.com/user-attachments/assets/3420326a-623b-4e06-b50c-974db1606a2a" />
+
+
 
 # Test Suites
 There are 3 Test Suites to execute.
