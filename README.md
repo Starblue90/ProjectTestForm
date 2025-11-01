@@ -138,7 +138,7 @@ This verification will prevent a successful form submission.
     - External files (e.g. test_datadriven.xlsx) holding data sets driving data-driven tests.
     
 /Reports/
-    - Stores test execution reports automatically generated after each run. (Added 5 Test Report samples in Git Hub main)  
+    - Stores test execution reports automatically generated after each run. 
     
 
     
